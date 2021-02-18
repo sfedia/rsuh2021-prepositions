@@ -64,7 +64,17 @@
         {"name": "НКРЯ_за_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_за_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_за_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "за (например: сам <b>за</b> себя; сам <b>за</b> собой)",
+            "matchesFound": true,
+            "matchesCount": 91,
+            "allMatches": 840,
+            "processedMatches": 91,
+            "query": "сам; 1; за; 1; себя",
+            "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_за_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_из_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
