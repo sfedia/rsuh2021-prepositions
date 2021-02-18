@@ -29,7 +29,7 @@
           for (var dataset of data.datasets_meta) {
             tableForm.push([
               dataset.name,
-              (dataset.matchesFound ? "ДА" : "НЕТ"),
+              (dataset.matchesFound === null ? "Не проверялось" : (dataset.matchesFound ? "ДА" : "НЕТ")),
               (dataset.link === null ? "?" : $("<a>см. ссылку</a>").attr("href", dataset.link).html()),
               (dataset.comment === null ? "" : dataset.comment)
             ])
