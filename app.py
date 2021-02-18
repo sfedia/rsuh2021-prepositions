@@ -45,7 +45,7 @@ def get_dataset_profile(dataset_name):
     valid_matches = len(ds_file["nk:datasetContent"]["items"])
     del ds_file
     return {
-        "preposition": meta["prepositionVariants"],
+        "preposition": this_dataset["prepositionVariants"],
         "property": criterion,
         "matches": {
             "all": this_dataset["allMatches"],
