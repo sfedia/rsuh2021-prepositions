@@ -11,12 +11,12 @@
         {
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "в (сам <b>в</b> себе)",
-            "matchesFound": null,
+            "matchesFound": true,
             "matchesCount": 669,
             "allMatches": 839,
-            "processedMatches": 460,
+            "processedMatches": 900,
             "query": "сам; 1; в; 1; себя",
-            "link": null,
+            "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 46 страницы"
         },
         {"name": "НКРЯ_в_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
