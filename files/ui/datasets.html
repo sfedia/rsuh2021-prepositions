@@ -29,18 +29,19 @@
           for (var dataset of data.datasets_meta) {
             tableForm.push([
               dataset.name,
-              (dataset.matchesFound === null ? "Не проверялось" : (dataset.matchesFound ? "ДА" : "НЕТ")),
+              (dataset.matchesFound === null ? "<i>Отсутствуют данные</i>" : (dataset.matchesFound ? "ДА" : "НЕТ")),
               (dataset.link === null ? "?" : $("<a>см. ссылку</a>").attr("href", dataset.link)[0].outerHTML),
               (dataset.comment === null ? "" : dataset.comment)
             ])
           }
-          $("#datasets_table").DataTable({
+          tbl = $("#datasets_table").DataTable({
             columnDefs: {
               width: "20%",
               targets: 0
             },
             data: tableForm
-          })
+          });
+          tbl.order([1, "asc"],[0, "asc"]).draw()
         });
       });
     </script>
