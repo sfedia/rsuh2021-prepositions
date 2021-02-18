@@ -10,13 +10,14 @@
         {"name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "в (сам <b>в</b> себе)",
             "matchesFound": null,
-            "matchesCount": 0,
-            "allMatches": 100500,
-            "processedMatches": 500,
-            "query": "...",
+            "matchesCount": 669,
+            "allMatches": 839,
+            "processedMatches": 460,
+            "query": "сам; 1; в; 1; себя",
             "link": null,
-            "comment": null
+            "comment": "до 46 страницы"
         },
         {"name": "НКРЯ_в_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
