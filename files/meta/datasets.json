@@ -82,7 +82,7 @@
             "name": "НКРЯ_из_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "из (например: сам <b>из</b> себя)",
             "matchesFound": true,
-            "matchesCount": 87,
+            "matchesCount": 81,
             "allMatches": 87,
             "processedMatches": 87,
             "query": "сам; 1; из; 1; себя",
