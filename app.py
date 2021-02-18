@@ -29,7 +29,7 @@ def show_dataset_profile(dataset_name):
 
 @app.route("/diachronic/<dataset_name>")
 def diachronic(dataset_name):
-    j = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8")).read())
+    j = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
     years = {}
     for item in j["nk:datasetContent"]["items"]:
         extractedDate = re.search(r"(\d{4})\)?$", item["title"])
