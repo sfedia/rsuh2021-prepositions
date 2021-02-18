@@ -5,7 +5,7 @@
         {"name": "НКРЯ_без_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {
             "name": "НКРЯ_без_ВАР:ДвРефлексивИнтерпозиция",
-            "prepositionVariants": "в (сам <b>в</b> себе)",
+            "prepositionVariants": "без (например: сам <b>без</b> себя)",
             "matchesFound": false,
             "matchesCount": 0,
             "allMatches": 0,
@@ -20,7 +20,7 @@
         {"name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
-            "prepositionVariants": "в (сам <b>в</b> себе)",
+            "prepositionVariants": "в (например: сам <b>в</b> себе)",
             "matchesFound": true,
             "matchesCount": 669,
             "allMatches": 839,
@@ -35,13 +35,13 @@
         {"name": "НКРЯ_для_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {
             "name": "НКРЯ_для_ВАР:ДвРефлексивИнтерпозиция",
-            "prepositionVariants": "в (сам <b>в</b> себе)",
+            "prepositionVariants": "для (например: сам <b>для</b> себя)",
             "matchesFound": true,
             "matchesCount": 108,
             "allMatches": 526,
             "processedMatches": 108,
             "query": "сам; 1; для; 1; себя",
-            "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
+            "link": "/dataset-profile/НКРЯ_для_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
         {"name": "НКРЯ_для_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
