@@ -14,13 +14,25 @@
       var datasetName = "{{dataset_name}}";
       var currentYear = new Date().getFullYear();
     </script>
+    
+    <style>
+      .main {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .diachronic {
+        height: 400px; 
+      }
+    </style>
   </head>
   
   <body>
-    <div class="panel panel-default">
-      <div class="panel-heading">Диахроническая репрезентативность</div>
-      <div class="panel-body">
-        <canvas id="diachronicChart"></canvas>
+    <div class="main">
+      <div class="panel panel-default diachronic">
+        <div class="panel-heading">Диахроническая репрезентативность</div>
+        <div class="panel-body">
+          <canvas id="diachronicChart"></canvas>
+        </div>
       </div>
     </div>
     
