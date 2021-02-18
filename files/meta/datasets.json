@@ -11,7 +11,7 @@
         {
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "в (сам <b>в</b> себе)",
-            "matchesFound": null,
+            "matchesFound": true,
             "matchesCount": 669,
             "allMatches": 839,
             "processedMatches": 900,
