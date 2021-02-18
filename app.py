@@ -39,6 +39,6 @@ def diachronic(dataset_name):
                 years[yearValue] = 1
             else:
                 years[yearValue] += 1
-     return jsonify({
+    return jsonify({
          "stats": [{"x": year, "y": years[year] if year in years else 0} for year in range(1800, 2021 + 1)]
      })
