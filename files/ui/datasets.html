@@ -20,6 +20,23 @@
       </thead>
       <tbody>
       </tbody>
-  </table>
+    </table>
+    
+    <script>
+      $(function() {
+        $.getJSON("meta.json/datasets.json", function (data) {
+          var tableForm = [];
+          for (var dataset of data.datasets_meta) {
+            tableForm.push([
+              dataset.name,
+              (dataset.matchesFound ? "ДА" : "НЕТ"),
+              (dataset.link === null ? "?" : dataset.link),
+              (dataset.comment === null ? "" : dataset.comment)
+            ])
+          }
+          $("#datasets_table").DataTable({data: tableForm})
+        });
+      });
+    </script>
   </body>
 </html>
