@@ -2,7 +2,7 @@ from flask import Flask
 from flask import send_from_directory
 from flask import render_template
 import os
-app = Flask(__name__, os.path.abspath("files/ui/templates"))
+app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
 
 @app.route('/')
 def hello_world():
