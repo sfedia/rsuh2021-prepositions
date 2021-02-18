@@ -58,7 +58,7 @@
             "query": "сам; 1; до; 1; себя",
             "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
-        }
+        },
         {"name": "НКРЯ_до_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_до_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
