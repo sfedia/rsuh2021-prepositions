@@ -1,6 +1,8 @@
 from flask import Flask
 from flask import send_from_directory
-app = Flask(__name__)
+from flask import render_template
+import os
+app = Flask(__name__, os.path.abspath("files/ui/templates"))
 
 @app.route('/')
 def hello_world():
@@ -17,3 +19,7 @@ def meta_json_file(filename):
 @app.route("/datasets.json/<filename>")
 def datasets_json_file(filename):
     return send_from_directory("files/datasets", filename)
+
+@app.route("/dataset-profile/<dataset_name>")
+def show_dataset_profile(dataset_name):
+    return render_template("dataset-profile.html")
