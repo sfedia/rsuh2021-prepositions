@@ -38,7 +38,7 @@ def get_dataset_profile(dataset_name):
     meta_file = json.loads(open(os.path.join("files/meta", "datasets.json"), encoding="utf-8").read())
     this_dataset = None
     for dataset in meta_file["datasets_meta"]:
-        if dataset["name"] == dataset_name:
+        if dataset["name"].replace(":", "_") == dataset_name:
             this_dataset = dataset
             break
     ds_file = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
