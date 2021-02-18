@@ -5,7 +5,9 @@ from flask import render_template
 import logging
 import json
 import os
+import re
 import sys
+
 app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
