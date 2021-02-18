@@ -20,14 +20,50 @@
         margin-left: 30px;
         margin-right: 30px;
       }
-      .diachronic {
-        height: 400px; 
-      }
     </style>
   </head>
   
   <body>
     <div class="main">
+      <div class="panel panel-default preposition">
+        <div class="panel-heading">Предлог (с вариантами)</div>
+        <div class="panel-body">
+          {{meta['preposition']}}
+        </div>
+      </div>
+      
+      <div class="panel panel-default preposition-property">
+        <div class="panel-heading">Свойство</div>
+        <div class="panel-body">
+          {{meta['property']}}
+        </div>
+      </div>
+      
+      <div class="panel panel-default corpus-query">
+        <div class="panel-heading">Структура запроса (НКРЯ)</div>
+        <div class="panel-body">
+          
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <span class="badge">{{meta['query_efficiency']}}</span>
+            {{meta['query']}}
+          </li>
+          <li class="list-group-item">
+            <span class="badge">{{meta['matches']['all']}}</span>
+            Выдано вхождений
+          </li>
+          <li class="list-group-item">
+            <span class="badge">{{meta['matches']['processed']}}</span>
+            Обработано вхождений
+          </li>
+          <li class="list-group-item">
+            <span class="badge">{{meta['matches']['valid']}}</span>
+            Подходящих вхождений
+          </li>
+        </ul>
+      </div>
+      
       <div class="panel panel-default diachronic">
         <div class="panel-heading">Диахроническая репрезентативность</div>
         <div class="panel-body">
