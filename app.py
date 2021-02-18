@@ -9,3 +9,11 @@ def hello_world():
 @app.route("/datasets")
 def show_datasets():
     return send_from_directory("files/ui", "datasets.html")
+
+@app.route("/meta.json/<filename>")
+def meta_json_file(filename):
+    return send_from_directory("files/meta", filename)
+
+@app.route("/datasets.json/<filename>")
+def datasets_json_file(filename):
+    return send_from_directory("files/datasets", filename)
