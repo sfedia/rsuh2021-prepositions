@@ -30,7 +30,7 @@ def datasets_json_file(filename):
 
 @app.route("/dataset-profile/<dataset_name>")
 def show_dataset_profile(dataset_name):
-    return render_template("dataset-profile.html")
+    return render_template("dataset-profile.html", dataset_name=dataset_name)
 
 
 @app.route("/diachronic/<dataset_name>")
