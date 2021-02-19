@@ -46,7 +46,7 @@
             "processedMatches": 100500,
             "query": [
                 "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)]",
-                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)]",
+                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
             "comment": "..."
