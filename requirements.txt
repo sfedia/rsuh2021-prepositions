@@ -1,4 +1,5 @@
 django-configurations==2.1
+files
 Flask==1.1.1
 gunicorn==19.0.0
 Jinja2==2.10.1

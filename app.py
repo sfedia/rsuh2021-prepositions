@@ -1,14 +1,15 @@
-from flask import Flask
-from flask import jsonify
-from flask import Markup
-from flask import send_from_directory
-from flask import render_template
-import lib as app_lib
-import logging
+import files.lib as app_lib
 import json
+import logging
 import os
 import re
 import sys
+
+from flask import Flask
+from flask import Markup
+from flask import jsonify
+from flask import render_template
+from flask import send_from_directory
 
 app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
