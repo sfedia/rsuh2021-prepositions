@@ -288,7 +288,17 @@
         {"name": "НКРЯ_при_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_при_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_при_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "при (например: сам <b>при</b> себе)",
+            "matchesFound": true,
+            "matchesCount": -1,
+            "allMatches": 2,
+            "processedMatches": 2,
+            "query": "сам; 1; при; 1; себя",
+            "link": "/dataset-profile/НКРЯ_при_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_при_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_про_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
