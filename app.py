@@ -3,6 +3,7 @@ from flask import jsonify
 from flask import Markup
 from flask import send_from_directory
 from flask import render_template
+import lib as app_lib
 import logging
 import json
 import os
@@ -62,7 +63,7 @@ def get_dataset_profile(dataset_name):
 def show_dataset_profile(dataset_name):
     profile = get_dataset_profile(dataset_name)
     profile["preposition"] = Markup(profile["preposition"])
-    profile["query"] = Markup(profile["query"])
+    profile["query"] = Markup(app_lib.query.CorpusQuery(profile["query"]).to_markup())
     return render_template("dataset-profile.html", dataset_name=dataset_name, meta=profile)
 
 
