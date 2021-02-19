@@ -9,7 +9,7 @@ from flask import Markup
 from flask import jsonify
 from flask import render_template
 from flask import send_from_directory
-from . import query
+from app.query import CorpusQuery
 
 app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -64,7 +64,7 @@ def get_dataset_profile(dataset_name):
 def show_dataset_profile(dataset_name):
     profile = get_dataset_profile(dataset_name)
     profile["preposition"] = Markup(profile["preposition"])
-    profile["query"] = Markup(query.CorpusQuery(profile["query"]).to_markup())
+    profile["query"] = Markup(CorpusQuery(profile["query"]).to_markup())
     return render_template("dataset-profile.html", dataset_name=dataset_name, meta=profile)
 
 
