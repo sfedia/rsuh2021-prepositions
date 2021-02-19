@@ -323,7 +323,17 @@
         {"name": "НКРЯ_у_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_у_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_у_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "у (например: сам <b>у</b> себя)",
+            "matchesFound": true,
+            "matchesCount": -1,
+            "allMatches": 148,
+            "processedMatches": 96,
+            "query": "сам; 1; у; 1; себя",
+            "link": "/dataset-profile/НКРЯ_у_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_у_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_через_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
