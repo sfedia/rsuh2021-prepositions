@@ -69,7 +69,7 @@
             {% if type(meta['query']) == str %}
               {{meta['query']}}
             {% else %}
-              {% for e, query on enumerate(meta['query']) %}
+              {% for e, query in enumerate(meta['query']) %}
                 {% if e == 0 %}
                   <div class="_query">
                     {{query}}
