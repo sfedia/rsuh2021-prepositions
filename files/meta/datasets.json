@@ -14,7 +14,16 @@
             "link": null,
             "comment": "вообще никаких вхождений"
         },
-        {"name": "НКРЯ_без_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_без_ВАР:Удвоение",
+            "prepositionVariants": "без (например: <b>без</b> чину <b>без</b> богослужебного)",
+            "matchesFound": true,
+            "allMatches": 6,
+            "processedMatches": 6,
+            "query": "[lex:без][add:-bmark] {1} [gr:S|SPRO][add:-bmark] {1} [lex:без][add:-bmark] {1} [gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_без_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_в_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_в_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
