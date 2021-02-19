@@ -38,13 +38,13 @@ def datasets_json_file(filename):
 
 def get_dataset_profile(dataset_name):
     corpus, prep, branch, criterion = dataset_name.split("_")
-    meta_file = json.loads(open(os.path.join("../files/meta", "datasets.json"), encoding="utf-8").read())
+    meta_file = json.loads(open(os.path.join("files/meta", "datasets.json"), encoding="utf-8").read())
     this_dataset = None
     for dataset in meta_file["datasets_meta"]:
         if dataset["name"].replace(":", "_") == dataset_name:
             this_dataset = dataset
             break
-    ds_file = json.loads(open(os.path.join("../files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
+    ds_file = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
     valid_matches = len(ds_file["nk:datasetContent"]["items"])
     del ds_file
     return {
