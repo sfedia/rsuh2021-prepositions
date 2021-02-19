@@ -11,7 +11,7 @@ from flask import render_template
 from flask import send_from_directory
 from app.query import CorpusQuery
 
-app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
+app = Flask(__name__, template_folder=os.path.abspath("../files/ui/templates"))
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
@@ -23,28 +23,28 @@ def hello_world():
 
 @app.route("/datasets")
 def show_datasets():
-    return send_from_directory("files/ui", "datasets.html")
+    return send_from_directory("../files/ui", "datasets.html")
 
 
 @app.route("/meta.json/<filename>")
 def meta_json_file(filename):
-    return send_from_directory("files/meta", filename)
+    return send_from_directory("../files/meta", filename)
 
 
 @app.route("/datasets.json/<filename>")
 def datasets_json_file(filename):
-    return send_from_directory("files/datasets", filename)
+    return send_from_directory("../files/datasets", filename)
 
 
 def get_dataset_profile(dataset_name):
     corpus, prep, branch, criterion = dataset_name.split("_")
-    meta_file = json.loads(open(os.path.join("files/meta", "datasets.json"), encoding="utf-8").read())
+    meta_file = json.loads(open(os.path.join("../files/meta", "datasets.json"), encoding="utf-8").read())
     this_dataset = None
     for dataset in meta_file["datasets_meta"]:
         if dataset["name"].replace(":", "_") == dataset_name:
             this_dataset = dataset
             break
-    ds_file = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
+    ds_file = json.loads(open(os.path.join("../files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
     valid_matches = len(ds_file["nk:datasetContent"]["items"])
     del ds_file
     return {
@@ -70,7 +70,7 @@ def show_dataset_profile(dataset_name):
 
 @app.route("/diachronic/<dataset_name>")
 def diachronic(dataset_name):
-    j = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
+    j = json.loads(open(os.path.join("../files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
     years = {}
     for item in j["nk:datasetContent"]["items"]:
         extracted_date = re.search(r"(\d{4})\)?$", item["title"])
