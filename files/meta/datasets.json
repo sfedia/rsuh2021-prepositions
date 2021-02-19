@@ -10,7 +10,7 @@
             "matchesCount": 0,
             "allMatches": 0,
             "processedMatches": 0,
-            "query": "сам; 1; без; 1; себя",
+            "query": "[lex:сам] {1} [lex:без] {1} [lex:себя]",
             "link": null,
             "comment": "вообще никаких вхождений"
         },
@@ -25,7 +25,7 @@
             "matchesCount": 669,
             "allMatches": 839,
             "processedMatches": 900,
-            "query": "сам; 1; в; 1; себя",
+            "query": "[lex:сам] {1} [lex:в] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 46 страницы"
         },
@@ -40,7 +40,7 @@
             "matchesCount": 108,
             "allMatches": 526,
             "processedMatches": 108,
-            "query": "сам; 1; для; 1; себя",
+            "query": "[lex:сам] {1} [lex:для] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_для_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -55,7 +55,7 @@
             "matchesCount": 12,
             "allMatches": 12,
             "processedMatches": 12,
-            "query": "сам; 1; до; 1; себя",
+            "query": "[lex:сам] {1} [lex:до] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -70,7 +70,7 @@
             "matchesCount": 101,
             "allMatches": 840,
             "processedMatches": 101,
-            "query": "сам; 1; за; 1; себя",
+            "query": "[lex:сам] {1} [lex:за] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_за_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -85,7 +85,7 @@
             "matchesCount": 81,
             "allMatches": 87,
             "processedMatches": 87,
-            "query": "сам; 1; из; 1; себя",
+            "query": "[lex:сам] {1} [lex:из] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_из_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -130,7 +130,7 @@
             "matchesCount": 90,
             "allMatches": 90,
             "processedMatches": 90,
-            "query": "сам; 1; к; 1; себя",
+            "query": "[lex:сам] {1} [lex:к] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_к_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -145,7 +145,7 @@
             "matchesCount": 104,
             "allMatches": 695,
             "processedMatches": 110,
-            "query": "сам; 1; на; 1; себя",
+            "query": "[lex:сам] {1} [lex:на] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -160,7 +160,7 @@
             "matchesCount": 111,
             "allMatches": 192,
             "processedMatches": 111,
-            "query": "сам; 1; над; 1; себя",
+            "query": "[lex:сам] {1} [lex:над] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_над_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -190,7 +190,7 @@
             "matchesCount": -1,
             "allMatches": 324,
             "processedMatches": 107,
-            "query": "сам; 1; от; 1; себя",
+            "query": "[lex:сам] {1} [lex:от] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_от_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -205,7 +205,7 @@
             "matchesCount": -1,
             "allMatches": 75,
             "processedMatches": 75,
-            "query": "сам; 1; перед; 1; себя",
+            "query": "[lex:сам] {1} [lex:перед] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_перед_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -220,7 +220,7 @@
             "matchesCount": -1,
             "allMatches": 15259,
             "processedMatches": 146,
-            "query": "сам; 1; по; 1; себя",
+            "query": "[lex:сам] {1} [lex:по] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_по_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -280,7 +280,7 @@
             "matchesCount": -1,
             "allMatches": 9,
             "processedMatches": 9,
-            "query": "сам; 1; под; 1; себя",
+            "query": "[lex:сам] {1} [lex:под] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_под_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -295,7 +295,7 @@
             "matchesCount": -1,
             "allMatches": 2,
             "processedMatches": 2,
-            "query": "сам; 1; при; 1; себя",
+            "query": "[lex:сам] {1} [lex:при] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_при_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
@@ -310,7 +310,7 @@
             "matchesCount": -1,
             "allMatches": 272,
             "processedMatches": 104,
-            "query": "сам; 1; про; 1; себя",
+            "query": "[lex:сам] {1} [lex:про] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_про_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -325,7 +325,7 @@
             "matchesCount": -1,
             "allMatches": 2517,
             "processedMatches": 135,
-            "query": "сам; 1; у; 1; себя",
+            "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_с_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -340,7 +340,7 @@
             "matchesCount": -1,
             "allMatches": 148,
             "processedMatches": 110,
-            "query": "сам; 1; у; 1; себя",
+            "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_у_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -355,7 +355,7 @@
             "matchesCount": -1,
             "allMatches": 5,
             "processedMatches": 5,
-            "query": "сам; 1; через; 1; себя",
+            "query": "[lex:сам] {1} [lex:через] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_через_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
