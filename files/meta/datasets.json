@@ -168,7 +168,17 @@
         {"name": "НКРЯ_о_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_о_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "о/об (например: сам <b>о</b> себе; сам <b>об</b> себя)",
+            "matchesFound": true,
+            "matchesCount": 74,
+            "allMatches": 449,
+            "processedMatches": 74,
+            "query": "сам; 1; о|об|обо; 1; себя",
+            "link": "/dataset-profile/НКРЯ_о_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "до 7 страницы; NB: пересмотреть отрицательные примеры"
+        },
         {"name": "НКРЯ_о_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
