@@ -75,7 +75,7 @@
       <div class="panel panel-default diachronic">
         <div class="panel-heading">
           <a
-            class="btn btn-secondary"
+            class="diachronic-tooltip btn btn-secondary"
             data-toggle="tooltip"
             data-html="true"
             title="<b>Встречаемость по годам</b>:
@@ -120,6 +120,8 @@
               }
           });
         });
+
+        $(".diachronic-tooltip").tooltip();
       });
     </script>
   </body>
