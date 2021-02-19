@@ -123,6 +123,17 @@
         {"name": "НКРЯ_к_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_к_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_к_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "к (например: сам <b>к</b> себе)",
+            "matchesFound": true,
+            "matchesCount": 90,
+            "allMatches": 90,
+            "processedMatches": 90,
+            "query": "сам; 1; к; 1; себя",
+            "link": "/dataset-profile/НКРЯ_к_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_к_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_к_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_на_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
