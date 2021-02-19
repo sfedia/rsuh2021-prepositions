@@ -183,7 +183,17 @@
         {"name": "НКРЯ_от_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_от_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_от_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "от (например: сам <b>от</b> себя)",
+            "matchesFound": true,
+            "matchesCount": -1,
+            "allMatches": 324,
+            "processedMatches": 107,
+            "query": "сам; 1; от; 1; себя",
+            "link": "/dataset-profile/НКРЯ_от_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_от_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_перед_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
