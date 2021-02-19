@@ -218,7 +218,17 @@
         {"name": "НКРЯ_по-за_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_по-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_по-за_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-за_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "по-за",
+            "matchesFound": false,
+            "matchesCount": 0,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "сам; 1; по-за; 1; себя",
+            "link": null,
+            "comment": "вхождений не найдено"
+        }
         {"name": "НКРЯ_по-за_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_по-над_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_по-над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
