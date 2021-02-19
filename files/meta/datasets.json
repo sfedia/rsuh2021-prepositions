@@ -273,7 +273,17 @@
         {"name": "НКРЯ_под_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
-        {"name": "НКРЯ_под_ВАР:ДвРефлексивИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_под_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "под (например: сам <b>под</b> собой)",
+            "matchesFound": true,
+            "matchesCount": -1,
+            "allMatches": 9,
+            "processedMatches": 9,
+            "query": "сам; 1; под; 1; себя",
+            "link": "/dataset-profile/НКРЯ_под_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_под_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
