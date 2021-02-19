@@ -142,9 +142,9 @@
             "name": "НКРЯ_на_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "на (например: сам <b>на</b> себя)",
             "matchesFound": true,
-            "matchesCount": 100,
+            "matchesCount": 104,
             "allMatches": 695,
-            "processedMatches": 100,
+            "processedMatches": 110,
             "query": "сам; 1; на; 1; себя",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
