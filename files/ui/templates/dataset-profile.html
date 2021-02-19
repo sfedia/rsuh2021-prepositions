@@ -21,6 +21,16 @@
         margin-left: 30px;
         margin-right: 30px;
       }
+      ._query {
+        display: inline-block;
+      }
+      ._query.added {
+        margin-left: 30px;
+      }
+      ._query.plus {
+        position: absolute;
+        top: 50%;
+      }
     </style>
   </head>
   
@@ -55,7 +65,28 @@
         <ul class="list-group">
           <li class="list-group-item">
             <span class="badge">{{meta['query_efficiency']}}</span>
-            {{meta['query']}}
+            <div class="_query">
+            {% if type(meta['query']) == str %}
+              {{meta['query']}}
+            {% else %}
+              {% for e, query on enumerate(meta['query']) %}
+                {% if e == 0 %}
+                  <div class="_query">
+                    {{query}}
+                  </div>
+                {% else %}
+                  <div class="_query added">
+                    {{query}}
+                  </div>
+                {% endif %}
+                {% if e != len(meta['query']) - 1 %}
+                  <div class="_query plus">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            </div>
           </li>
           <li class="list-group-item">
             <span class="badge">{{meta['matches']['all']}}</span>
