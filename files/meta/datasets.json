@@ -38,7 +38,19 @@
             "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 46 страницы"
         },
-        {"name": "НКРЯ_в_ВАР:Удвоение", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_в_ВАР:Удвоение",
+            "prepositionVariants": "в",
+            "matchesFound": true,
+            "allMatches": 100500,
+            "processedMatches": 100500,
+            "query": [
+                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)]",
+                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)]",
+            ],
+            "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
+            "comment": "..."
+        },
         {"name": "НКРЯ_для_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
