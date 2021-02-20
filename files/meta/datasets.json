@@ -253,7 +253,16 @@
             "link": "/dataset-profile/НКРЯ_над_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_над_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_над_ВАР:Удвоение",
+            "prepositionVariants": "над (например: <b>над</b> морем <b>над</b> синим)",
+            "matchesFound": true,
+            "allMatches": 4,
+            "processedMatches": 4,
+            "query": "[lex:над][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:над][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_над_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_о_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_о_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
