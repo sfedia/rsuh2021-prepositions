@@ -87,10 +87,9 @@ def diachronic(dataset_name):
 def dataset_json(dataset_name):
     _from = int(request.args.get("from", 0))
     _until = request.args.get("until", None)
-    pretty = request.args.get("pretty", None)
     if _until:
         _until = int(_until)
 
     return jsonify({
         "data": [item._asdict() for item in Dataset(dataset_name).item_simple_reader(_from, _until)]
-    }, indent=None if not pretty else 2)
+    })
