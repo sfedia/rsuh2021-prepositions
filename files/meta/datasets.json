@@ -38,7 +38,7 @@
         },
         {
             "name": "НКРЯ_в_ВАР:Удвоение",
-            "prepositionVariants": "в",
+            "prepositionVariants": "в/во",
             "matchesFound": true,
             "allMatches": 976,
             "processedMatches": 976,
