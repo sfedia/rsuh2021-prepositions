@@ -93,3 +93,8 @@ def dataset_json(dataset_name):
     return jsonify({
         "data": [item._asdict() for item in Dataset(dataset_name).item_simple_reader(_from, _until)]
     })
+
+
+@app.route("/view-matches/<dataset_name>")
+def view_matches(dataset_name):
+    return render_template("dataset-matches.html", dataset_name=dataset_name)
