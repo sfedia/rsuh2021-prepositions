@@ -23,7 +23,7 @@ def hello_world():
 
 @app.route("/datasets")
 def show_datasets():
-    return send_from_directory("files/ui", "datasets.html")
+    return send_from_directory("../files/ui", "datasets.html")
 
 
 @app.route("/meta.json/<filename>")
