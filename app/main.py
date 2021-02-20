@@ -28,12 +28,12 @@ def show_datasets():
 
 @app.route("/meta.json/<filename>")
 def meta_json_file(filename):
-    return send_from_directory("files/meta", filename)
+    return send_from_directory("../files/meta", filename)
 
 
 @app.route("/datasets.json/<filename>")
 def datasets_json_file(filename):
-    return send_from_directory("files/datasets", filename)
+    return send_from_directory("../files/datasets", filename)
 
 
 def get_dataset_profile(dataset_name):
