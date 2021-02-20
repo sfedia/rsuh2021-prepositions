@@ -70,7 +70,7 @@
             "allMatches": 13,
             "processedMatches": 13,
             "query": "[lex:для][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:для][add:-bmark]{1}[gr:A|NUM|ANUM]",
-            "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
+            "link": "/dataset-profile/НКРЯ_для_ВАР_Удвоение",
             "comment": "обработано всё"
         },
         {"name": "НКРЯ_до_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
