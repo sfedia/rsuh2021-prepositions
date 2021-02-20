@@ -227,7 +227,19 @@
             "link": "/dataset-profile/НКРЯ_на_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_на_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_на_ВАР:Удвоение",
+            "prepositionVariants": "на",
+            "matchesFound": true,
+            "allMatches": 593,
+            "processedMatches": 286,
+            "query": [
+                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),acc][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),acc]{1}[gr:-acc]",
+                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(loc|loc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(loc|loc2)]{1}[gr:-(loc|loc2)]"
+            ],
+            "link": "/dataset-profile/НКРЯ_на_ВАР_Удвоение",
+            "comment": "Query(A) ВСЁ, Query(B) до 22 страницы"
+        },
         {"name": "НКРЯ_над_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_над_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
