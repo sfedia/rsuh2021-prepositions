@@ -48,7 +48,7 @@
                 "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)] {1} [gr:-(acc|acc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
-            "comment": "Query(A) ВСЁ, Query(B) не начато, Query(C) не начато"
+            "comment": "Query(A) ВСЁ, Query(B) ВСЁ, Query(C) не начато"
         },
         {"name": "НКРЯ_для_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
