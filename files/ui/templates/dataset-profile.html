@@ -64,7 +64,11 @@
         </div>
         <ul class="list-group">
           <li class="list-group-item">
-            <span class="badge">{{meta['query_efficiency']}}</span>
+            <span class="badge query-efficiency"
+                  data-toggle="tooltip"
+                  data-html="true"
+                  title="Из всего объёма вхождений <b>{{meta['query_efficiency']}}</b> подошли"
+            >{{meta['query_efficiency']}}</span>
             <div class="_query">
             {% if query_is_string %}
               {{meta['query']}}
@@ -152,7 +156,7 @@
           });
         });
 
-        $(".diachronic-tooltip").tooltip();
+        $(".diachronic-tooltip, .query-efficiency").tooltip();
       });
     </script>
   </body>
