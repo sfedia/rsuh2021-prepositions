@@ -6,9 +6,11 @@ import sys
 from flask import Flask
 from flask import Markup
 from flask import jsonify
+from flask import request
 from flask import render_template
 from flask import send_from_directory
 from app.dataset import Dataset
+from app.dataset import dataset_simple_item
 from app.query import CorpusQuery
 
 app = Flask(__name__, template_folder=os.path.abspath("files/ui/templates"))
@@ -79,3 +81,16 @@ def diachronic(dataset_name):
     return jsonify({
          "stats": Dataset(dataset_name).by_years()
      })
+
+
+@app.route("/dataset-json/<dataset_name>")
+def dataset_json(dataset_name):
+    _from = int(request.args.get("from", 0))
+    _until = request.args.get("until", None)
+    pretty = request.args.get("pretty", None)
+    if _until:
+        _until = int(_until)
+
+    return jsonify({
+        "data": [item._asdict() for item in Dataset(dataset_name).item_simple_reader(_from, _until)]
+    }, indent=None if not pretty else 2)

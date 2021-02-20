@@ -2,6 +2,9 @@ import json
 import os
 import re
 from datetime import datetime
+from collections import namedtuple
+
+dataset_simple_item = namedtuple("DatasetSimpleItem", "title text link on_corpus_page")
 
 
 class Dataset:
@@ -31,3 +34,12 @@ class Dataset:
                 "y": years[year] if year in years else 0
             } for year in range(min_limit, now.year + 1)
         ]
+
+    def item_simple_reader(self, offset=0, until=None):
+        for item in self.j["nk:datasetContent"]["items"][offset:until]:
+            yield dataset_simple_item(
+                title=item["title"],
+                text="".join([f'<span class=\'text-block {b["status"]}\'>{b["text"]}</span>' for b in item["text"]]),
+                link=f'<a href=\'{item["itemURL"]}\'>смотреть в НКРЯ</a>',
+                on_corpus_page=f'страница {item["itemPageIndex"]}, пункт {item["indexInPage"]}'
+            )
