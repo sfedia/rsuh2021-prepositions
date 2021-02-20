@@ -86,7 +86,16 @@
             "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_до_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_до_ВАР:Удвоение",
+            "prepositionVariants": "до",
+            "matchesFound": true,
+            "allMatches": 16,
+            "processedMatches": 16,
+            "query": "[lex:до][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:до][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_до_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
