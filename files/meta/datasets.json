@@ -155,7 +155,7 @@
             "matchesFound": true,
             "allMatches": 2,
             "processedMatches": 2,
-            "query": "[lex:из-за][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[gr:A|NUM|ANUM",
+            "query": "[lex:из-за][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[gr:A|NUM|ANUM]",
             "link": "/dataset-profile/НКРЯ_из-за_ВАР_Удвоение",
             "comment": "обработано всё"
         },
@@ -168,11 +168,20 @@
             "matchesFound": false,
             "allMatches": 0,
             "processedMatches": 0,
-            "query": "сам; 1; из-под; 1; себя",
+            "query": "[lex:сам] {1} [lex:из-под] {1} [lex:себя]",
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_из-под_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-под_ВАР:Удвоение",
+            "prepositionVariants": "из-под",
+            "matchesFound": false,
+            "allMatches": 1,
+            "processedMatches": 1,
+            "query": "[lex:из-под|из-подо][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:из-под|из-подо][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
         {"name": "НКРЯ_к_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_к_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
