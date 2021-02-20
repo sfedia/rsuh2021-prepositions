@@ -19,7 +19,7 @@
             "matchesFound": true,
             "allMatches": 6,
             "processedMatches": 6,
-            "query": "[lex:без][add:-bmark] {1} [gr:S|SPRO][add:-bmark] {1} [lex:без][add:-bmark] {1} [gr:A|NUM|ANUM]",
+            "query": "[lex:без|безо][add:-bmark] {1} [gr:S|SPRO][add:-bmark] {1} [lex:без|безо][add:-bmark] {1} [gr:A|NUM|ANUM]",
             "link": "/dataset-profile/НКРЯ_без_ВАР_Удвоение",
             "comment": "обработано всё"
         },
