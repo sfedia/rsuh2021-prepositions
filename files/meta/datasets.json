@@ -135,7 +135,16 @@
             "link": "/dataset-profile/НКРЯ_из_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_из_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из_ВАР:Удвоение",
+            "prepositionVariants": "из (например: <b>из</b> пушек <b>из</b> малых)",
+            "matchesFound": true,
+            "allMatches": 98,
+            "processedMatches": 98,
+            "query": "[lex:из][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:из][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_из_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_из-за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
