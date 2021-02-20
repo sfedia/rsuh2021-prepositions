@@ -149,7 +149,16 @@
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_из-за_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-за_ВАР:Удвоение",
+            "prepositionVariants": "из-за",
+            "matchesFound": true,
+            "allMatches": 2,
+            "processedMatches": 2,
+            "query": "[lex:из-за][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[gr:A|NUM|ANUM",
+            "link": "/dataset-profile/НКРЯ_из-за_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_из-под_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
