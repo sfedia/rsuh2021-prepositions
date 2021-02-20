@@ -204,7 +204,16 @@
             "link": "/dataset-profile/НКРЯ_к_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_к_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_к_ВАР:Удвоение",
+            "prepositionVariants": "к (например: <b>к</b> нему <b>к</b> одному)",
+            "matchesFound": true,
+            "allMatches": 37,
+            "processedMatches": 37,
+            "query": "[lex:к][add:-bmark]{1}[gr:(S|SPRO),dat][add:-bmark]{1}[lex:к][add:-bmark]{1}[gr:(A|NUM|ANUM),dat]{1}[gr:-dat]",
+            "link": "/dataset-profile/НКРЯ_к_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_на_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_на_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
