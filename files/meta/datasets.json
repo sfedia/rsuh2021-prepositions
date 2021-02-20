@@ -46,10 +46,11 @@
             "processedMatches": 976,
             "query": [
                 "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)] {1} [gr:-(loc|loc2)]",
+                "[lex:в|во][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:во][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)] {1} [gr:-(loc|loc2)]",
                 "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)] {1} [gr:-(acc|acc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
-            "comment": "Query(A) ВСЁ, Query(B) не начато"
+            "comment": "Query(A) ВСЁ, Query(B) не начато, Query(C) не начато"
         },
         {"name": "НКРЯ_для_ВАР:АппроксИнверсия", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "matchesCount": 0, "link": null, "comment": null},
