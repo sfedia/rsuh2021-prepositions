@@ -66,7 +66,7 @@
           <li class="list-group-item">
             <span class="badge">{{meta['query_efficiency']}}</span>
             <div class="_query">
-            {% if type(meta['query']) == str %}
+            {% if query_is_string %}
               {{meta['query']}}
             {% else %}
               {% for e, query in enumerate(meta['query']) %}

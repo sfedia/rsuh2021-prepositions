@@ -64,8 +64,12 @@ def get_dataset_profile(dataset_name):
 def show_dataset_profile(dataset_name):
     profile = get_dataset_profile(dataset_name)
     profile["preposition"] = Markup(profile["preposition"])
-    profile["query"] = Markup(CorpusQuery(profile["query"]).to_markup())
-    return render_template("dataset-profile.html", dataset_name=dataset_name, meta=profile)
+    qis = type(profile["query"]) == str
+    if qis:
+        profile["query"] = Markup(CorpusQuery(profile["query"]).to_markup())
+    else:
+        profile["query"] = [Markup(CorpusQuery(q).to_markup()) for q in profile["query"]]
+    return render_template("dataset-profile.html", dataset_name=dataset_name, meta=profile, query_is_string=qis)
 
 
 @app.route("/diachronic/<dataset_name>")
