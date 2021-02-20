@@ -63,7 +63,16 @@
             "link": "/dataset-profile/НКРЯ_для_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_для_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_для_ВАР:Удвоение",
+            "prepositionVariants": "для",
+            "matchesFound": true,
+            "allMatches": 13,
+            "processedMatches": 13,
+            "query": "[lex:для][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:для][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_до_ВАР_ДвРефлексивИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_до_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_до_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_до_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
