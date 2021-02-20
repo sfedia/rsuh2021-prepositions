@@ -69,7 +69,8 @@ def show_dataset_profile(dataset_name):
         profile["query"] = Markup(CorpusQuery(profile["query"]).to_markup())
     else:
         profile["query"] = [Markup(CorpusQuery(q).to_markup()) for q in profile["query"]]
-    return render_template("dataset-profile.html", dataset_name=dataset_name, meta=profile, query_is_string=qis)
+    return render_template("dataset-profile.html",
+                           dataset_name=dataset_name, meta=profile, query_is_string=qis, enumerate=enumerate)
 
 
 @app.route("/diachronic/<dataset_name>")
