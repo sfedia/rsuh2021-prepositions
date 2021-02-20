@@ -48,7 +48,7 @@
 
     <script>
       $(function() {
-        $.getJSON("/datasets-json/" + datasetName, function (res) {
+        $.getJSON("/dataset-json/" + datasetName, function (res) {
           var tableForm = [];
           for (var matchItem of res.data) {
             tableForm.push([
