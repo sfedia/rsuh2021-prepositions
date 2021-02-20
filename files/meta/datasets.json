@@ -268,13 +268,23 @@
         {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
-            "prepositionVariants": "о/об (например: сам <b>о</b> себе; сам <b>об</b> себя)",
+            "prepositionVariants": "о/об/обо (например: сам <b>о</b> себе; сам <b>об</b> себя)",
             "matchesFound": true,
             "allMatches": 449,
             "processedMatches": 74,
             "query": "[lex:сам] {1} [lex:о|об|обо] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_о_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 7 страницы; NB: пересмотреть отрицательные примеры"
+        },
+        {
+            "name": "НКРЯ_о_ВАР:Удвоение",
+            "prepositionVariants": "о/об/обо",
+            "matchesFound": true,
+            "allMatches": 78,
+            "processedMatches": 78,
+            "query": "[lex:о|об|обо][add:-bmark]{1}[gr:S|SPRO][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[gr:A|NUM|ANUM]",
+            "link": "/dataset-profile/НКРЯ_о_ВАР_Удвоение",
+            "comment": "обработано всё"
         },
         {"name": "НКРЯ_о_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
