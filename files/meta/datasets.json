@@ -109,7 +109,19 @@
             "link": "/dataset-profile/НКРЯ_за_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_за_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_за_ВАР:Удвоение",
+            "prepositionVariants": "за",
+            "matchesFound": true,
+            "allMatches": 122,
+            "processedMatches": 122,
+            "query": [
+                "[lex:за][add:-bmark]{1}[gr:(S|SPRO),(acc|acc2)][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(A|NUM|ANUM),(acc|acc2)]",
+                "[lex:за][add:-bmark]{1}[gr:(S|SPRO),(loc|loc2)][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(A|NUM|ANUM),(loc|loc2)]{1}[gr:-(loc|loc2)]"
+            ],
+            "link": "/dataset-profile/НКРЯ_за_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_из_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
