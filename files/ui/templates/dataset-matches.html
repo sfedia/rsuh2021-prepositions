@@ -5,6 +5,7 @@
     <title>Вхождения датасета {{dataset_name}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/static/loader.css">
     <link rel="stylesheet" href="/static/kitty.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -45,7 +46,13 @@
         <h3>Список выбранных вхождений для {{dataset_name}}</h3>
       </div>
       <div class="caution">
-        Идёт загрузка... большие датасеты могут загружаться долго!
+        <div class="loader" id="loader-2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h3 class="loader-header">Идёт загрузка...</h3>
+        <h5 class="loader-header" style="margin-top:10px!important;">Большие датасеты могут загружаться долго</h5>
       </div>
       <table id="matches_table" class="display" style="visibility: hidden">
         <thead>
