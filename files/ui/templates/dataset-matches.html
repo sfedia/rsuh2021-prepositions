@@ -44,7 +44,10 @@
       <div class="page-header">
         <h3>Список выбранных вхождений для {{dataset_name}}</h3>
       </div>
-      <table id="matches_table" class="display">
+      <div class="caution">
+        Идёт загрузка... большие датасеты могут загружаться долго!
+      </div>
+      <table id="matches_table" class="display" style="visibility: hidden">
         <thead>
             <tr>
                 <th>Текст</th>
@@ -61,6 +64,8 @@
     <script>
       $(function() {
         $.getJSON("/dataset-json/" + datasetName, function (res) {
+          $(".caution").css({display: "none"});
+          $("#matches_table").css({visibility: "visible"});
           var tableForm = [];
           for (var matchItem of res.data) {
             tableForm.push([
