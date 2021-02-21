@@ -510,8 +510,8 @@
             "name": "НКРЯ_с_ВАР:Удвоение",
             "prepositionVariants": "с",
             "matchesFound": true,
-            "allMatches": 7,
-            "processedMatches": 7,
+            "allMatches": 190,
+            "processedMatches": 190,
             "query": "[lex:с][add:-bmark]{1}[gr:(S|SPRO),ins][add:-bmark]{1}[lex:с][add:-bmark]{1}[gr:(A|NUM|ANUM),ins]{1}[gr:-ins]",
             "link": "/dataset-profile/НКРЯ_с_ВАР_Удвоение",
             "comment": "обработано всё"
