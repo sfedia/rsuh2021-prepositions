@@ -15,7 +15,7 @@
         },
         {
             "name": "НКРЯ_без_ВАР:Удвоение",
-            "prepositionVariants": "без (например: <b>без</b> чину <b>без</b> богослужебного)",
+            "prepositionVariants": "без (например: <b>без</b> чинчерез|черезо|чрез <b>без</b> богослчерез|черезо|чрезжебного)",
             "matchesFound": true,
             "allMatches": 6,
             "processedMatches": 6,
@@ -137,7 +137,7 @@
         },
         {
             "name": "НКРЯ_из_ВАР:Удвоение",
-            "prepositionVariants": "из (например: <b>из</b> пушек <b>из</b> малых)",
+            "prepositionVariants": "из (например: <b>из</b> пчерез|черезо|чрезшек <b>из</b> малых)",
             "matchesFound": true,
             "allMatches": 98,
             "processedMatches": 98,
@@ -206,7 +206,7 @@
         },
         {
             "name": "НКРЯ_к_ВАР:Удвоение",
-            "prepositionVariants": "к (например: <b>к</b> нему <b>к</b> одному)",
+            "prepositionVariants": "к (например: <b>к</b> немчерез|черезо|чрез <b>к</b> одномчерез|черезо|чрез)",
             "matchesFound": true,
             "allMatches": 37,
             "processedMatches": 37,
@@ -502,7 +502,7 @@
             "matchesFound": true,
             "allMatches": 2517,
             "processedMatches": 135,
-            "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
+            "query": "[lex:сам] {1} [lex:через|черезо|чрез] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_с_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
@@ -516,20 +516,29 @@
             "link": "/dataset-profile/НКРЯ_с_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_у_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
-        {"name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
-        {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {"name": "НКРЯ_через|черезо|чрез_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {"name": "НКРЯ_через|черезо|чрез_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {"name": "НКРЯ_через|черезо|чрез_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
-            "name": "НКРЯ_у_ВАР:ДвРефлексивИнтерпозиция",
-            "prepositionVariants": "у (например: сам <b>у</b> себя)",
+            "name": "НКРЯ_через|черезо|чрез_ВАР:ДвРефлексивИнтерпозиция",
+            "prepositionVariants": "через|черезо|чрез (например: сам <b>через|черезо|чрез</b> себя)",
             "matchesFound": true,
             "allMatches": 148,
             "processedMatches": 110,
-            "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
-            "link": "/dataset-profile/НКРЯ_у_ВАР_ДвРефлексивИнтерпозиция",
+            "query": "[lex:сам] {1} [lex:через|черезо|чрез] {1} [lex:себя]",
+            "link": "/dataset-profile/НКРЯ_через|черезо|чрез_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_у_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_через|черезо|чрез_ВАР:Удвоение",
+            "prepositionVariants": "через|черезо|чрез (например: <b>через|черезо|чрез</b> них <b>через|черезо|чрез</b> обеих)",
+            "matchesFound": true,
+            "allMatches": 208,
+            "processedMatches": 208,
+            "query": "[lex:через|черезо|чрез][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:через|черезо|чрез][add:-bmark]{1}[gr:(A|NUM|ANUM)",
+            "link": "/dataset-profile/НКРЯ_через|черезо|чрез_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_через_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_через_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -543,6 +552,15 @@
             "link": "/dataset-profile/НКРЯ_через_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_через_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null}
+        {
+            "name": "НКРЯ_через_ВАР:Удвоение",
+            "prepositionVariants": "через/черезо/чрез",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:через|черезо|чрез][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:через|черезо|чрез][add:-bmark]{1}[gr:(A|NUM|ANUM)",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
     ]
 }
