@@ -299,7 +299,16 @@
             "link": "/dataset-profile/НКРЯ_от_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_от_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_от_ВАР:Удвоение",
+            "prepositionVariants": "от/ото (например: <b>от</b> избы <b>от</b> крайней)",
+            "matchesFound": true,
+            "allMatches": 75,
+            "processedMatches": 75,
+            "query": "[lex:от|ото][add:-bmark]{1}[gr:(S|SPRO),gen][add:-bmark]{1}[lex:от|ото][add:-bmark]{1}[gr:(A|NUM|ANUM),gen]",
+            "link": "/dataset-profile/НКРЯ_от_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_перед_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_перед_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
