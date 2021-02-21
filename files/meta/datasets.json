@@ -561,6 +561,6 @@
             "query": "[lex:через|черезо|чрез][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:через|черезо|чрез][add:-bmark]{1}[gr:(A|NUM|ANUM)",
             "link": null,
             "comment": "вхождений не найдено"
-        },
+        }
     ]
 }
