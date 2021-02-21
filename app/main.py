@@ -28,6 +28,11 @@ def show_datasets():
     return send_from_directory("../files/ui", "datasets.html")
 
 
+@app.route("/static/<filename>")
+def response_static(filename):
+    return send_from_directory("../files/static", filename)
+
+
 @app.route("/meta.json/<filename>")
 def meta_json_file(filename):
     return send_from_directory("../files/meta", filename)
