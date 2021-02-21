@@ -1,1 +1,3 @@
-# rsuh2021-prepositions
+# База данных для русских первообразных предлогов
+## Ресурсы
+* [Пилотная версия проекта](https://rsuh2021-prepositions.herokuapp.com/)
