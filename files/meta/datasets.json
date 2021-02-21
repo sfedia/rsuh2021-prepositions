@@ -286,7 +286,6 @@
             "link": "/dataset-profile/НКРЯ_о_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_о_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
