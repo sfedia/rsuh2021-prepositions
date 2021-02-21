@@ -32,6 +32,7 @@
                 <th>Имя</th>
                 <th>Примеры найдены?</th>
                 <th>Подробно</th>
+                <th>Обработано</th>
                 <th>Комментарий</th>
             </tr>
         </thead>
@@ -49,6 +50,7 @@
               dataset.name,
               (dataset.matchesFound === null ? "<i>Отсутствуют данные</i>" : (dataset.matchesFound ? "ДА" : "НЕТ")),
               (dataset.link === null ? "?" : $("<a>см. ссылку</a>").attr("href", dataset.link)[0].outerHTML),
+              (dataset.processedMatches / dataset.allMatches).toFixed(2),
               (dataset.comment === null ? "" : dataset.comment)
             ])
           }
