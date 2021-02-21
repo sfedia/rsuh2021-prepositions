@@ -322,7 +322,16 @@
             "link": "/dataset-profile/НКРЯ_перед_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_перед_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_перед_ВАР:Удвоение",
+            "prepositionVariants": "перед/передо",
+            "matchesFound": true,
+            "allMatches": 2,
+            "processedMatches": 2,
+            "query": "[lex:перед|передо][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[gr:(A|NUM|ANUM)]",
+            "link": "/dataset-profile/НКРЯ_перед_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_по_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -336,7 +345,16 @@
             "link": "/dataset-profile/НКРЯ_по_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_по_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по_ВАР:Удвоение",
+            "prepositionVariants": "по (например: <b>по</b> ним <b>по</b> всем)",
+            "matchesFound": true,
+            "allMatches": 71,
+            "processedMatches": 71,
+            "query": "[lex:по][add:-bmark]{1}[gr:(S|SPRO),dat][add:-bmark]{1}[lex:по][add:-bmark]{1}[gr:(A|NUM|ANUM),dat]{1}[gr:-dat]",
+            "link": "/dataset-profile/НКРЯ_по_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_по-за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -350,7 +368,16 @@
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_по-за_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-за_ВАР:Удвоение",
+            "prepositionVariants": "по-за",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:по-за][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[gr:(A|NUM|ANUM)]",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
         {"name": "НКРЯ_по-над_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-над_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -364,7 +391,16 @@
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_по-над_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-над_ВАР:Удвоение",
+            "prepositionVariants": "по-над",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:по-над][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:по-над][add:-bmark]{1}[gr:(A|NUM|ANUM)]",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
         {"name": "НКРЯ_по-под_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -378,7 +414,16 @@
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_по-под_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-под_ВАР:Удвоение",
+            "prepositionVariants": "по-под",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:по-под][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:по-под][add:-bmark]{1}[gr:(A|NUM|ANUM)]",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
         {"name": "НКРЯ_под_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -392,7 +437,16 @@
             "link": "/dataset-profile/НКРЯ_под_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_под_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_под_ВАР:Удвоение",
+            "prepositionVariants": "под/подо",
+            "matchesFound": true,
+            "allMatches": 16,
+            "processedMatches": 16,
+            "query": "[lex:под|подо][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[gr:(A|NUM|ANUM)",
+            "link": "/dataset-profile/НКРЯ_под_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_при_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -406,7 +460,16 @@
             "link": "/dataset-profile/НКРЯ_при_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_при_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_при_ВАР:Удвоение",
+            "prepositionVariants": "при",
+            "matchesFound": true,
+            "allMatches": 36,
+            "processedMatches": 36,
+            "query": "[lex:при][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:при][add:-bmark]{1}[gr:(A|NUM|ANUM)",
+            "link": "/dataset-profile/НКРЯ_при_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_про_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_про_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -420,7 +483,16 @@
             "link": "/dataset-profile/НКРЯ_про_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_про_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_про_ВАР:Удвоение",
+            "prepositionVariants": "про",
+            "matchesFound": true,
+            "allMatches": 7,
+            "processedMatches": 7,
+            "query": "[lex:про][add:-bmark]{1}[gr:(S|SPRO)][add:-bmark]{1}[lex:про][add:-bmark]{1}[gr:(A|NUM|ANUM)]",
+            "link": "/dataset-profile/НКРЯ_про_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_с_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_с_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
@@ -434,7 +506,16 @@
             "link": "/dataset-profile/НКРЯ_с_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_с_ВАР:Удвоение", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_с_ВАР:Удвоение",
+            "prepositionVariants": "с",
+            "matchesFound": true,
+            "allMatches": 7,
+            "processedMatches": 7,
+            "query": "[lex:с][add:-bmark]{1}[gr:(S|SPRO),ins][add:-bmark]{1}[lex:с][add:-bmark]{1}[gr:(A|NUM|ANUM),ins]{1}[gr:-ins]",
+            "link": "/dataset-profile/НКРЯ_с_ВАР_Удвоение",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_у_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
