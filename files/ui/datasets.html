@@ -50,7 +50,8 @@
               dataset.name,
               (dataset.matchesFound === null ? "<i>Отсутствуют данные</i>" : (dataset.matchesFound ? "ДА" : "НЕТ")),
               (dataset.link === null ? "?" : $("<a>см. ссылку</a>").attr("href", dataset.link)[0].outerHTML),
-              (dataset.processedMatches / dataset.allMatches).toFixed(2),
+              (isNaN(dataset.processedMatches/dataset.allMatches)
+                ?1:(dataset.processedMatches/dataset.allMatches)).toFixed(2),
               (dataset.comment === null ? "" : dataset.comment)
             ])
           }
