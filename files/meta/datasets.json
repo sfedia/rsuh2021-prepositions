@@ -135,7 +135,19 @@
             "link": "/dataset-profile/НКРЯ_до_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_за_ВАР:АппроксИнверсия",
+            "prepositionVariants": "за (например: столом <b>за</b> одним)",
+            "matchesFound": true,
+            "allMatches": 3877,
+            "processedMatches": 271,
+            "query": [
+                "[gr:-ins]{1}[gr:S,ins][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+                "[gr:-(acc|acc2)]{1}[gr:S,(acc|acc2)][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(NUM|ANUM),(acc|acc2)]"
+            ],
+            "link": "/dataset-profile/НКРЯ_за_ВАР_АппроксИнверсия",
+            "comment": "Query(A) ВСЁ, Query(B) до 10 страницы"
+        },
         {"name": "НКРЯ_за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
