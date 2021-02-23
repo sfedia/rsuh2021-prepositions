@@ -172,7 +172,16 @@
             "link": "/dataset-profile/НКРЯ_из_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_из-за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-за_ВАР:АппроксИнверсия",
+            "prepositionVariants": "из-за",
+            "matchesFound": true,
+            "allMatches": 54,
+            "processedMatches": 54,
+            "query": "[gr:S,gen][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[gr:(NUM|ANUM),gen]",
+            "link": "/dataset-profile/НКРЯ_из-за_ВАР_АппроксИнверсия",
+            "comment": "обработано всё, нашелся один пример"
+        },
         {"name": "НКРЯ_из-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
@@ -195,7 +204,16 @@
             "link": "/dataset-profile/НКРЯ_из-за_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_из-под_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-под_ВАР:АппроксИнверсия",
+            "prepositionVariants": "из-под",
+            "matchesFound": false,
+            "allMatches": 5,
+            "processedMatches": 5,
+            "query": "[gr:S,gen][add:-bmark]{1}[lex:из-под][add:-bmark]{1}[gr:(NUM|ANUM),gen]",
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {"name": "НКРЯ_из-под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из-под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
