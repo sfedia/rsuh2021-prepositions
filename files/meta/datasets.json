@@ -400,7 +400,16 @@
             "link": "/dataset-profile/НКРЯ_по_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_по-за_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-за_ВАР:АппроксИнверсия",
+            "prepositionVariants": "по-за",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[gr:S,ins][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {"name": "НКРЯ_по-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
