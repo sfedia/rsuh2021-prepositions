@@ -373,7 +373,16 @@
             "link": "/dataset-profile/НКРЯ_над_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_о_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_о_ВАР:АппроксИнверсия",
+            "prepositionVariants": "о/об/обо",
+            "matchesFound": true,
+            "allMatches": 346,
+            "processedMatches": 346,
+            "query": "[gr:-(loc|loc2)]{1}[gr:S,(loc|loc2)][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[gr:(NUM|ANUM),(loc|loc2)]",
+            "link": "/dataset-profile/НКРЯ_о_ВАР_АппроксИнверсия",
+            "comment": "обработано всё, нашёлся один пример"
+        },
         {"name": "НКРЯ_о_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
