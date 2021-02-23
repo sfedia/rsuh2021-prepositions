@@ -59,6 +59,16 @@
             "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
             "comment": "Query(A) ВСЁ, Query(B) ВСЁ, Query(C) не начато"
         },
+        {
+            "name": "НКРЯ_для_ВАР:АппроксИнверсия",
+            "prepositionVariants": "для",
+            "matchesFound": true,
+            "allMatches": 667,
+            "processedMatches": 667,
+            "query": "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:для][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]",
+            "link": null,
+            "comment": "обработано всё, ни одного примера"
+        },
         {"name": "НКРЯ_для_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_для_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
