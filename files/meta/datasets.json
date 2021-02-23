@@ -62,7 +62,7 @@
         {
             "name": "НКРЯ_для_ВАР:АппроксИнверсия",
             "prepositionVariants": "для",
-            "matchesFound": true,
+            "matchesFound": false,
             "allMatches": 667,
             "processedMatches": 667,
             "query": "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:для][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]",
