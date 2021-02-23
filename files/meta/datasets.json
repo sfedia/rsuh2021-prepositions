@@ -32,7 +32,19 @@
             "link": "/dataset-profile/НКРЯ_без_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_в_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_в_ВАР:АппроксИнверсия",
+            "prepositionVariants": "в (например: метрах <b>в</b> пяти)",
+            "matchesFound": true,
+            "allMatches": 22142,
+            "processedMatches": 129,
+            "query": [
+                "[gr:-(loc|loc2)]{1}[gr:S,(loc|loc2)][add:-bmark]{1}[lex:в][add:-bmark]{1}[gr:(NUM|ANUM),(loc|loc2)]",
+                "[gr:-(acc|acc2)]{1}[gr:S,(acc|acc2)][add:-bmark]{1}[lex:в][add:-bmark]{1}[gr:(NUM|ANUM),(acc|acc2)]"
+            ],
+            "link": "/dataset-profile/НКРЯ_в_ВАР_АппроксИнверсия",
+            "comment": "Query(A) до 10 страницы, Query(B) до 10 страницы"
+        },
         {"name": "НКРЯ_в_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
