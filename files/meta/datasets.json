@@ -341,7 +341,16 @@
             "link": "/dataset-profile/НКРЯ_на_ВАР_Удвоение",
             "comment": "Query(A) ВСЁ, Query(B) до 22 страницы"
         },
-        {"name": "НКРЯ_над_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_над_ВАР:АппроксИнверсия",
+            "prepositionVariants": "над",
+            "matchesFound": false,
+            "allMatches": 34,
+            "processedMatches": 34,
+            "query": "[gr:-ins]{1}[gr:S,ins][add:-bmark]{1}[lex:над][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+            "link": null,
+            "comment": "ничего не найдено"
+        },
         {"name": "НКРЯ_над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_над_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
