@@ -277,9 +277,7 @@
             "matchesFound": true,
             "allMatches": 945,
             "processedMatches": 112,
-            "query": [
-                "[gr:-dat]{1}[gr:S,dat][add:-bmark]{1}[lex:к][add:-bmark]{1}[gr:(NUM|ANUM),dat]"
-            ],
+            "query": "[gr:-dat]{1}[gr:S,dat][add:-bmark]{1}[lex:к][add:-bmark]{1}[gr:(NUM|ANUM),dat]",
             "link": "/dataset-profile/НКРЯ_к_ВАР_АппроксИнверсия",
             "comment": "до 10 страницы"
         },
@@ -305,7 +303,19 @@
             "link": "/dataset-profile/НКРЯ_к_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_на_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_на_ВАР:АппроксИнверсия",
+            "prepositionVariants": "на",
+            "matchesFound": true,
+            "allMatches": 16059,
+            "processedMatches": 426,
+            "query": [
+                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(acc|acc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(acc|acc2)]",
+                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(loc|loc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(loc|loc2)]{1}[gr:-(loc|loc2)]"
+            ],
+            "link": "/dataset-profile/НКРЯ_на_ВАР_АппроксИнверсия",
+            "comment": "Query(A) до 20 страницы, Query(B) до 10 страницы"
+        },
         {"name": "НКРЯ_на_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
