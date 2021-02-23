@@ -173,7 +173,18 @@
             "link": "/dataset-profile/НКРЯ_за_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_из_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из_ВАР:АппроксИнверсия",
+            "prepositionVariants": "из (например: человек <b>из</b> пяти)",
+            "matchesFound": true,
+            "allMatches": 2464,
+            "processedMatches": 236,
+            "query": [
+                "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]",
+            ],
+            "link": "/dataset-profile/НКРЯ_из_ВАР_АппроксИнверсия",
+            "comment": "до 20 страницы, один пример"
+        },
         {"name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_из_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
