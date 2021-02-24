@@ -628,7 +628,16 @@
             "link": "/dataset-profile/НКРЯ_под_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_при_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_при_ВАР:АппроксИнверсия",
+            "prepositionVariants": "при",
+            "matchesFound": true,
+            "allMatches": 282,
+            "processedMatches": 282,
+            "query": "[gr:-(loc|loc2)]{1}[gr:S,(loc|loc2)][add:-bmark]{1}[lex:при][add:-bmark]{1}[gr:(NUM|ANUM),(loc|loc2)]",
+            "link": "/dataset-profile/НКРЯ_при_ВАР_АппроксИнверсия",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
