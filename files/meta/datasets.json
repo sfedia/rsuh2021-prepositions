@@ -660,7 +660,16 @@
             "link": "/dataset-profile/НКРЯ_при_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_про_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_про_ВАР:АппроксИнверсия",
+            "prepositionVariants": "про",
+            "matchesFound": false,
+            "allMatches": 95,
+            "processedMatches": 95,
+            "query": "[gr:-(acc|acc2)]{1}[gr:S,(acc|acc2)][add:-bmark]{1}[lex:про][add:-bmark]{1}[gr:(NUM|ANUM),(acc|acc2)]",
+            "link": null,
+            "comment": "обработано всё, ни одного примера"
+        },
         {"name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_про_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
@@ -683,7 +692,16 @@
             "link": "/dataset-profile/НКРЯ_про_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_с_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_с_ВАР:АппроксИнверсия",
+            "prepositionVariants": "с/со",
+            "matchesFound": true,
+            "allMatches": 797,
+            "processedMatches": 797,
+            "query": "[gr:-ins]{1}[gr:S,ins][add:-bmark]{1}[lex:с|со][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+            "link": "/dataset-profile/с_ВАР_АппроксИнверсия",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_с_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
