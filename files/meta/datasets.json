@@ -410,10 +410,10 @@
             "prepositionVariants": "от/ото",
             "matchesFound": true,
             "allMatches": 1469,
-            "processedMatches": 729,
+            "processedMatches": 1469,
             "query": "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:от|ото][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]",
             "link": "/dataset-profile/НКРЯ_от_ВАР_АппроксИнверсия",
-            "comment": "1-30,50-61,90-110"
+            "comment": "обработано всё"
         },
         {"name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
