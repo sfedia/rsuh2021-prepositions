@@ -437,7 +437,16 @@
             "link": "/dataset-profile/НКРЯ_от_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_перед_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_перед_ВАР:АппроксИнверсия",
+            "prepositionVariants": "перед/передо",
+            "matchesFound": false,
+            "allMatches": 19,
+            "processedMatches": 19,
+            "query": "[gr:-ins]{1}[gr:S,ins][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+            "link": null,
+            "comment": "обработано всё, ни одного примера"
+        },
         {"name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_перед_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
