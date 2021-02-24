@@ -469,7 +469,16 @@
             "link": "/dataset-profile/НКРЯ_перед_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_по_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по_ВАР:АппроксИнверсия",
+            "prepositionVariants": "по",
+            "matchesFound": true,
+            "allMatches": 649,
+            "processedMatches": 649,
+            "query": "[gr:-dat]{1}[gr:S,dat][add:-bmark]{1}[lex:по][add:-bmark]{1}[gr:(NUM|ANUM),dat]",
+            "link": "/dataset-profile/НКРЯ_по_ВАР_АппроксИнверсия",
+            "comment": "обработано всё, нашёлся один пример"
+        },
         {"name": "НКРЯ_по_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_по_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
