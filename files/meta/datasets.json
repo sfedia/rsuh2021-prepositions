@@ -724,7 +724,16 @@
             "link": "/dataset-profile/НКРЯ_с_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_у_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_у_ВАР:АппроксИнверсия",
+            "prepositionVariants": "у",
+            "matchesFound": true,
+            "allMatches": 661,
+            "processedMatches": 661,
+            "query": "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:у][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]",
+            "link": "/dataset-profile/у_ВАР_АппроксИнверсия",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
