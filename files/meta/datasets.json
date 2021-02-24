@@ -596,7 +596,16 @@
             "link": null,
             "comment": "вхождений не найдено"
         },
-        {"name": "НКРЯ_под_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_под_ВАР:АппроксИнверсия",
+            "prepositionVariants": "под/подо",
+            "matchesFound": false,
+            "allMatches": 57,
+            "processedMatches": 57,
+            "query": "[gr:-ins]{1}[gr:S,ins][add:-bmark]{1}[lex:под][add:-bmark]{1}[gr:(NUM|ANUM),ins]",
+            "link": null,
+            "comment": "обработано всё, ни одного примера"
+        },
         {"name": "НКРЯ_под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
