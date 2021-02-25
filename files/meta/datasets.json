@@ -757,7 +757,16 @@
             "link": "/dataset-profile/НКРЯ_у_ВАР_Удвоение",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_через_ВАР:АппроксИнверсия", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_через_ВАР:АппроксИнверсия",
+            "prepositionVariants": "через(о)/чрез",
+            "matchesFound": true,
+            "allMatches": 2346,
+            "processedMatches": 360,
+            "query": "[gr:-(acc|acc2)]{1}[gr:S,(acc|acc2)][add:-bmark]{1}[lex:через|чрез|черезо][add:-bmark]{1}[gr:(NUM|ANUM),(acc|acc2)]",
+            "link": "/dataset-profile/НКРЯ_через_ВАР_АппроксИнверсия",
+            "comment": "до 30 страницы"
+        },
         {"name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {"name": "НКРЯ_через_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
