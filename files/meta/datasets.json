@@ -230,7 +230,16 @@
             "link": "/dataset-profile/НКРЯ_из_ВАР_АппроксИнверсия",
             "comment": "до 20 страницы, один пример"
         },
-        {"name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "из/изо",
+            "matchesFound": true,
+            "allMatches": 147,
+            "processedMatches": 147,
+            "query": "[lex:ни] {1} [lex:из|изо] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_из_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_из_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_из_ВАР:ДвРефлексивИнтерпозиция",
@@ -303,7 +312,16 @@
             "link": null,
             "comment": "ни одного примера"
         },
-        {"name": "НКРЯ_из-под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-под_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "из-под",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:ни] {1} [lex:из-под] {1} [lex:к*|ч*][gr:(SPRO|APRO)]",
+            "link": null,
+            "comment": "вхождений не найдено"
+        },
         {"name": "НКРЯ_из-под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_из-под_ВАР:ДвРефлексивИнтерпозиция",
