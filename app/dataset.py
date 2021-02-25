@@ -8,8 +8,9 @@ dataset_simple_item = namedtuple("DatasetSimpleItem", "title text link on_corpus
 
 
 class Dataset:
-    def __init__(self, dataset_name):
-        self.j = json.loads(open(os.path.join("files/datasets", f"{dataset_name}.json"), encoding="utf-8").read())
+    def __init__(self, dataset_name, file_prefix=""):
+        self.j = json.loads(
+            open(os.path.join(file_prefix, "files", "datasets", f"{dataset_name}.json"), encoding="utf-8").read())
 
     def get_matches_count(self):
         return len(self.j["nk:datasetContent"]["items"])
