@@ -54,7 +54,16 @@
             "link": "/dataset-profile/НКРЯ_в_ВАР_АппроксИнверсия",
             "comment": "Query(A) до 10 страницы, Query(B) до 10 страницы"
         },
-        {"name": "НКРЯ_в_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_в_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "в/во",
+            "matchesFound": true,
+            "allMatches": 20562,
+            "processedMatches": 217,
+            "query": "[lex:ни] {1} [lex:в|во] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_в_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 11 страницы"
+        },
         {"name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
@@ -90,7 +99,16 @@
             "link": null,
             "comment": "обработано всё, ни одного примера"
         },
-        {"name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_для_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "для",
+            "matchesFound": true,
+            "allMatches": 1617,
+            "processedMatches": 112,
+            "query": "[lex:ни] {1} [lex:для] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_для_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_для_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_для_ВАР:ДвРефлексивИнтерпозиция",
@@ -122,7 +140,16 @@
             "link": "/dataset-profile/НКРЯ_до_ВАР_АппроксИнверсия",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_до_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_до_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "до",
+            "matchesFound": true,
+            "allMatches": 671,
+            "processedMatches": 137,
+            "query": "[lex:ни] {1} [lex:до] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_до_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 13 страницы"
+        },
         {"name": "НКРЯ_до_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_до_ВАР:ДвРефлексивИнтерпозиция",
@@ -157,7 +184,16 @@
             "link": "/dataset-profile/НКРЯ_за_ВАР_АппроксИнверсия",
             "comment": "Query(A) ВСЁ, Query(B) до 10 страницы"
         },
-        {"name": "НКРЯ_за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_за_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "за",
+            "matchesFound": true,
+            "allMatches": 9424,
+            "processedMatches": 187,
+            "query": "[lex:ни] {1} [lex:за] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_за_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_за_ВАР:ДвРефлексивИнтерпозиция",
