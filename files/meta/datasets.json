@@ -397,7 +397,16 @@
             "link": "/dataset-profile/НКРЯ_на_ВАР_АппроксИнверсия",
             "comment": "Query(A) до 20 страницы, Query(B) до 10 страницы"
         },
-        {"name": "НКРЯ_на_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_на_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "на",
+            "matchesFound": true,
+            "allMatches": 9942,
+            "processedMatches": 174,
+            "query": "[lex:ни] {1} [lex:на] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_на_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_на_ВАР:ДвРефлексивИнтерпозиция",
@@ -432,7 +441,16 @@
             "link": null,
             "comment": "ничего не найдено"
         },
-        {"name": "НКРЯ_над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_над_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "над/надо",
+            "matchesFound": true,
+            "allMatches": 140,
+            "processedMatches": 140,
+            "query": "[lex:ни] {1} [lex:над|надо] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_над_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_над_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_над_ВАР:ДвРефлексивИнтерпозиция",
