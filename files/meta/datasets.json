@@ -262,7 +262,16 @@
             "link": "/dataset-profile/НКРЯ_из-за_ВАР_АппроксИнверсия",
             "comment": "обработано всё, нашелся один пример"
         },
-        {"name": "НКРЯ_из-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-за_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "из-за",
+            "matchesFound": true,
+            "allMatches": 16,
+            "processedMatches": 16,
+            "query": "[lex:ни] {1} [lex:из-за] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_из-за_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё, интересная диахрония"
+        },
         {"name": "НКРЯ_из-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_из-за_ВАР:ДвРефлексивИнтерпозиция",
