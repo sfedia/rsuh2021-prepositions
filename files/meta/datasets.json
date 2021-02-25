@@ -353,7 +353,16 @@
             "link": "/dataset-profile/НКРЯ_к_ВАР_АппроксИнверсия",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_к_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_к_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "к/ко",
+            "matchesFound": true,
+            "allMatches": 8459,
+            "processedMatches": 163,
+            "query": "[lex:ни] {1} [lex:к|ко] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_к_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_к_ВАР:ДвРефлексивИнтерпозиция",
