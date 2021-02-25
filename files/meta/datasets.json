@@ -10,7 +10,16 @@
             "link": "/dataset-profile/НКРЯ_без_ВАР_АппроксИнверсия",
             "comment": "обработано всё, нашелся один единственный пример"
         },
-        {"name": "НКРЯ_без_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_без_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "без/безо",
+            "matchesFound": true,
+            "allMatches": 25,
+            "processedMatches": 25,
+            "query": "[lex:ни] {1} [lex:без|безо] {1} [gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_без_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_без_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_без_ВАР:ДвРефлексивИнтерпозиция",
