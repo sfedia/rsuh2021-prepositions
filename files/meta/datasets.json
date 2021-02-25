@@ -482,7 +482,16 @@
             "link": "/dataset-profile/НКРЯ_о_ВАР_АппроксИнверсия",
             "comment": "обработано всё, нашёлся один пример"
         },
-        {"name": "НКРЯ_о_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_о_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "о/об/обо",
+            "matchesFound": true,
+            "allMatches": 9320,
+            "processedMatches": 225,
+            "query": "[lex:ни] {1} [lex:о|об|обо] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_о_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
@@ -514,7 +523,16 @@
             "link": "/dataset-profile/НКРЯ_от_ВАР_АппроксИнверсия",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_от_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "от/ото",
+            "matchesFound": true,
+            "allMatches": 2118,
+            "processedMatches": 109,
+            "query": "[lex:ни] {1} [lex:от|ото] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_от_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_от_ВАР:ДвРефлексивИнтерпозиция",
@@ -546,7 +564,16 @@
             "link": null,
             "comment": "обработано всё, ни одного примера"
         },
-        {"name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "перед(о)/пред(о)",
+            "matchesFound": true,
+            "allMatches": 1033,
+            "processedMatches": 117,
+            "query": "[lex:ни] {1} [lex:перед|передо|пред] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_перед_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_перед_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_перед_ВАР:ДвРефлексивИнтерпозиция",
