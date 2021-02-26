@@ -637,7 +637,16 @@
             "link": null,
             "comment": "ни одного примера"
         },
-        {"name": "НКРЯ_по-за_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-за_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "по-за",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:ни]{1}[lex:по-за]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {"name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_по-за_ВАР:ДвРефлексивИнтерпозиция",
@@ -669,7 +678,16 @@
             "link": null,
             "comment": "ни одного примера"
         },
-        {"name": "НКРЯ_по-над_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-над_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "по-над",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:ни]{1}[lex:по-над]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {"name": "НКРЯ_по-над_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_по-над_ВАР:ДвРефлексивИнтерпозиция",
@@ -701,7 +719,16 @@
             "link": null,
             "comment": "ни одного примера"
         },
-        {"name": "НКРЯ_по-под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-под_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "по-под",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": "[lex:ни]{1}[lex:по-под]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {"name": "НКРЯ_по-под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_по-под_ВАР:ДвРефлексивИнтерпозиция",
