@@ -933,7 +933,16 @@
             "link": "/dataset-profile/у_ВАР_АппроксИнверсия",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "у",
+            "matchesFound": true,
+            "allMatches": 3746,
+            "processedMatches": 126,
+            "query": "[lex:ни]{1}[lex:у]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_у_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_у_ВАР:ДвРефлексивИнтерпозиция",
