@@ -974,7 +974,16 @@
             "link": "/dataset-profile/НКРЯ_через_ВАР_АппроксИнверсия",
             "comment": "до 30 страницы"
         },
-        {"name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "ч(е)рез",
+            "matchesFound": true,
+            "allMatches": 24,
+            "processedMatches": 24,
+            "query": "[lex:ни]{1}[lex:через|чрез]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_через_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_через_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_через_ВАР:ДвРефлексивИнтерпозиция",
