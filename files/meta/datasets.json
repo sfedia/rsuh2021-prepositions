@@ -605,7 +605,16 @@
             "link": "/dataset-profile/НКРЯ_по_ВАР_АппроксИнверсия",
             "comment": "обработано всё, нашёлся один пример"
         },
-        {"name": "НКРЯ_по_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "по",
+            "matchesFound": true,
+            "allMatches": 288,
+            "processedMatches": 288,
+            "query": "[lex:ни]{1}[lex:по]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_по_ВАР_ОтрМестИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {"name": "НКРЯ_по_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_по_ВАР:ДвРефлексивИнтерпозиция",
