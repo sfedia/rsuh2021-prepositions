@@ -769,7 +769,16 @@
             "link": null,
             "comment": "обработано всё, ни одного примера"
         },
-        {"name": "НКРЯ_под_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_под_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "под",
+            "matchesFound": true,
+            "allMatches": 860,
+            "processedMatches": 113,
+            "query": "[lex:ни]{1}[lex:под]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_под_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_под_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_под_ВАР:ДвРефлексивИнтерпозиция",
