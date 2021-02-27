@@ -810,7 +810,16 @@
             "link": "/dataset-profile/НКРЯ_при_ВАР_АппроксИнверсия",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_при_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "при",
+            "matchesFound": true,
+            "allMatches": 3710,
+            "processedMatches": 171,
+            "query": "[lex:ни]{1}[lex:при]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_при_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_при_ВАР:ДвРефлексивИнтерпозиция",
@@ -842,7 +851,16 @@
             "link": null,
             "comment": "обработано всё, ни одного примера"
         },
-        {"name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "про",
+            "matchesFound": true,
+            "allMatches": 619,
+            "processedMatches": 123,
+            "query": "[lex:ни]{1}[lex:про]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_про_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_про_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_про_ВАР:ДвРефлексивИнтерпозиция",
@@ -874,7 +892,16 @@
             "link": "/dataset-profile/с_ВАР_АппроксИнверсия",
             "comment": "обработано всё"
         },
-        {"name": "НКРЯ_с_ВАР:ОтрМестИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_с_ВАР:ОтрМестИнтерпозиция",
+            "prepositionVariants": "с",
+            "matchesFound": true,
+            "allMatches": 7797,
+            "processedMatches": 176,
+            "query": "[lex:ни]{1}[lex:с]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
+            "link": "/dataset-profile/НКРЯ_с_ВАР_ОтрМестИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {"name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
         {
             "name": "НКРЯ_с_ВАР:ДвРефлексивИнтерпозиция",
