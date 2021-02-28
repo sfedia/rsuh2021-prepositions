@@ -825,7 +825,20 @@
             "link": null,
             "comment": "ни одного примера"
         },
-        {"name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_по-за_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "по-за",
+            "matchesFound": false,
+            "allMatches": 0,
+            "processedMatches": 0,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": null,
+            "comment": "ни одного примера"
+        },
         {
             "name": "НКРЯ_по-за_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "по-за",
