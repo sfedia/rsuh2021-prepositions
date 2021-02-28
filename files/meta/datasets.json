@@ -622,7 +622,20 @@
             "link": "/dataset-profile/НКРЯ_о_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "о/об(о)",
+            "matchesFound": true,
+            "allMatches": 114,
+            "processedMatches": 114,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_о_ВАР_АмальгамыИнтерпозиция",
+            "comment": "до 10 страницы"
+        },
         {
             "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "о/об/обо (например: сам <b>о</b> себе; сам <b>об</b> себя)",
