@@ -346,7 +346,20 @@
             "link": "/dataset-profile/НКРЯ_из-за_ВАР_ОтрМестИнтерпозиция",
             "comment": "обработано всё, интересная диахрония"
         },
-        {"name": "НКРЯ_из-за_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_из-за_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "из-за",
+            "matchesFound": true,
+            "allMatches": 44,
+            "processedMatches": 44,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_из-за_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_из-за_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "из-за",
