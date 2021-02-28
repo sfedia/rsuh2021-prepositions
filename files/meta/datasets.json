@@ -511,7 +511,20 @@
             "link": "/dataset-profile/НКРЯ_на_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "на",
+            "matchesFound": true,
+            "allMatches": 278,
+            "processedMatches": 278,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_на_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_на_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "на (например: сам <b>на</b> себя)",
