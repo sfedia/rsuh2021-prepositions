@@ -676,7 +676,20 @@
             "link": "/dataset-profile/НКРЯ_от_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "от(о)",
+            "matchesFound": true,
+            "allMatches": 130,
+            "processedMatches": 130,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_от_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_от_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "от (например: сам <b>от</b> себя)",
