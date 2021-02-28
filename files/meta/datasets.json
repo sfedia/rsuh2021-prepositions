@@ -454,7 +454,20 @@
             "link": "/dataset-profile/НКРЯ_к_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "к",
+            "matchesFound": true,
+            "allMatches": 141,
+            "processedMatches": 141,
+            "query": [
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]",
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_к_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_к_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "к (например: сам <b>к</b> себе)",
