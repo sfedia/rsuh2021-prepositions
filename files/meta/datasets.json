@@ -1067,7 +1067,20 @@
             "link": "/dataset-profile/НКРЯ_при_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "при",
+            "matchesFound": true,
+            "allMatches": 9,
+            "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
+            "processedMatches": 9,
+            "query": [
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_при_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_при_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "при (например: сам <b>при</b> себе)",
