@@ -1018,10 +1018,10 @@
             "prepositionVariants": "под(о)",
             "matchesFound": true,
             "allMatches": 2,
-            "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]",
             "processedMatches": 2,
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]",
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]",
                 "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_под_ВАР_АмальгамыИнтерпозиция",
@@ -1072,10 +1072,10 @@
             "prepositionVariants": "при",
             "matchesFound": true,
             "allMatches": 9,
-            "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
             "processedMatches": 9,
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
                 "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_при_ВАР_АмальгамыИнтерпозиция",
@@ -1126,10 +1126,10 @@
             "prepositionVariants": "про",
             "matchesFound": true,
             "allMatches": 20,
-            "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
             "processedMatches": 20,
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
                 "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_про_ВАР_АмальгамыИнтерпозиция",
@@ -1175,7 +1175,20 @@
             "link": "/dataset-profile/НКРЯ_с_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_c_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "c/со",
+            "matchesFound": true,
+            "allMatches": 359,
+            "processedMatches": 111,
+            "query": [
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:с|со][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_про_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_с_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "с (например: сам <b>с</b> собой)",
