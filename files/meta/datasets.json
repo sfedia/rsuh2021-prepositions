@@ -1229,7 +1229,20 @@
             "link": "/dataset-profile/НКРЯ_у_ВАР_ОтрМестИнтерпозиция",
             "comment": "до 10 страницы"
         },
-        {"name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция", "matchesFound": null, "link": null, "comment": null},
+        {
+            "name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция",
+            "prepositionVariants": "у",
+            "matchesFound": true,
+            "allMatches": 81,
+            "processedMatches": 81,
+            "query": [
+                "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]",
+                "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]",
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]"
+            ],
+            "link": "/dataset-profile/НКРЯ_у_ВАР_АмальгамыИнтерпозиция",
+            "comment": "обработано всё"
+        },
         {
             "name": "НКРЯ_у_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "у (например: сам <b>у</b> себя)",
