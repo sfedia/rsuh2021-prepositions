@@ -1176,7 +1176,7 @@
             "comment": "до 10 страницы"
         },
         {
-            "name": "НКРЯ_c_ВАР:АмальгамыИнтерпозиция",
+            "name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция",
             "prepositionVariants": "c/со",
             "matchesFound": true,
             "allMatches": 359,
