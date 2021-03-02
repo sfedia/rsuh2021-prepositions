@@ -36,11 +36,19 @@ class Dataset:
             } for year in range(min_limit, now.year + 1)
         ]
 
+    @staticmethod
+    def get_item_link(item):
+        if "itemExpandURL" not in item:
+            return f'<a href=\'{item["itemURL"]}\'>смотреть в НКРЯ</a>'
+        else:
+            return f'<a href=\'{item["itemExpandURL"]}\'>смотреть в НКРЯ</a>' +\
+            f'<sup><b><a href=\'{item["itemURL"]}\'>(Q)</a></b></sup>'
+
     def item_simple_reader(self, offset=0, until=None):
         for item in self.j["nk:datasetContent"]["items"][offset:until]:
             yield dataset_simple_item(
                 title=item["title"],
                 text="".join([f'<span class=\'text-block {b["status"]}\'>{b["text"]}</span>' for b in item["text"]]),
-                link=f'<a href=\'{item["itemURL"]}\'>смотреть в НКРЯ</a>',
+                link=self.get_item_link(item),
                 on_corpus_page=f'страница {item["itemPageIndex"]}, пункт {item["indexInPage"]}'
             )
