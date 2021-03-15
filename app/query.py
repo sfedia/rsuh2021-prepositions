@@ -62,9 +62,9 @@ class CorpusQuery:
                 if "lex" in item:
                     r.append(f"<b>{item['lex'][0]}</b>")
                 if "gr" in item:
-                    r.append(" ".join([f"<small>{x}</small>" for x in item["gr"]]))
+                    r.append(" ".join(f"<small>{x}</small>" for x in item["gr"]))
                 if "add" in item:
-                    r.append(" ".join([f"<small>{x}</small>" for x in item["add"]]))
+                    r.append(" ".join(f"<small>{x}</small>" for x in item["add"]))
                 return " ".join(r)
 
         return "\n".join(item_to_markup(item) for item in self.decode())
