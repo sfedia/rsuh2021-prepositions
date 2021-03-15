@@ -67,4 +67,4 @@ class CorpusQuery:
                     r.append(" ".join([f"<small>{x}</small>" for x in item["add"]]))
                 return " ".join(r)
 
-        return "\n".join([item_to_markup(item) for item in self.decode()])
+        return "\n".join(item_to_markup(item) for item in self.decode())
