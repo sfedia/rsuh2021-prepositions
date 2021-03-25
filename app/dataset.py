@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from collections import namedtuple
 
-dataset_simple_item = namedtuple("DatasetSimpleItem", "title text link on_corpus_page")
+dataset_simple_item = namedtuple("DatasetSimpleItem", "title text")
 
 
 class Dataset:
@@ -48,7 +48,5 @@ class Dataset:
         for item in self.j["nk:datasetContent"]["items"][offset:until]:
             yield dataset_simple_item(
                 title=item["title"],
-                text="".join([f'<span class=\'text-block {b["status"]}\'>{b["text"]}</span>' for b in item["text"]]),
-                link=self.get_item_link(item),
-                on_corpus_page=f'страница {item["itemPageIndex"]}, пункт {item["indexInPage"]}'
+                text="".join([f'<span class=\'text-block {b["status"]}\'>{b["text"]}</span>' for b in item["text"]])
             )
