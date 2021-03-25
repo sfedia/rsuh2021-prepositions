@@ -96,10 +96,10 @@
             "prepositionVariants": "в (например: сам <b>в</b> себе)",
             "matchesFound": true,
             "allMatches": 839,
-            "processedMatches": 702,
+            "processedMatches": 819,
             "query": "[lex:сам] {1} [lex:в] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 46 страницы"
+            "comment": "обработано всё"
         },
         {
             "name": "НКРЯ_в_ВАР:Удвоение",
