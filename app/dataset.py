@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from collections import namedtuple
 
-dataset_simple_item = namedtuple("DatasetSimpleItem", "title text link on_corpus_page")
+dataset_simple_item = namedtuple("DatasetSimpleItem", "title text")
 
 
 class Dataset:
