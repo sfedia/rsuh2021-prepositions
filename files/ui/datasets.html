@@ -9,15 +9,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
-    
+
     <style>
       .main {
         margin-left: 30px;
         margin-right: 30px;
       }
+
+      .well-processed {
+        color: green;
+      }
+
+      .not-well-processed {
+        color: red;
+      }
     </style>
   </head>
-  
+
   <body>
     <a href="https://github.com/prodotiscus/rsuh2021-prepositions" class="github-corner" title="Исходники на GitHub">
         <svg width="80" height="80" viewBox="0 0 250 250" title="Исходники на GitHub" style="fill: #eee; color: #151513; position: absolute; top: 0; border: 0; right: 0;">
@@ -48,20 +56,31 @@
         </tbody>
       </table>
     </div>
-    
+
     <script>
+      function toClassName(procRatio, randomized) {
+        procRatio = Number(procRatio)
+        if (procRatio === 1 || (randomized !== undefined && randomized === true)) {
+          return "well-processed"
+        }
+        else {
+          return "not-well-processed"
+        }
+      }
+
       $(function() {
         $.getJSON("meta.json/datasets.json", function (data) {
           var tableForm = [];
           for (var dataset of data.datasets_meta) {
+            var processedRatio = (dataset.matchesFound === null
+              ? 0
+              : (dataset.matchesFound ? (dataset.processedMatches / dataset.allMatches) : 1)
+            ).toFixed(2);
             tableForm.push([
-              dataset.name,
+              '<span class="' + toClassName(processedRatio, dataset.randomized) + '">' + dataset.name + '</span>',
               (dataset.matchesFound === null ? "<i>Отсутствуют данные</i>" : (dataset.matchesFound ? "ДА" : "НЕТ")),
               (dataset.link === null ? "?" : $("<a>см. ссылку</a>").attr("href", dataset.link)[0].outerHTML),
-              (dataset.matchesFound === null
-                ? 0
-                : (dataset.matchesFound ? (dataset.processedMatches / dataset.allMatches) : 1)
-              ).toFixed(2),
+              processedRatio,
               (dataset.comment === null ? "" : dataset.comment)
             ])
           }
