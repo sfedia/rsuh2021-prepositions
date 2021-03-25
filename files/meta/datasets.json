@@ -95,8 +95,8 @@
             "name": "НКРЯ_в_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "в (например: сам <b>в</b> себе)",
             "matchesFound": true,
-            "allMatches": 839,
-            "processedMatches": 819,
+            "allMatches": 811,
+            "processedMatches": 811,
             "query": "[lex:сам] {1} [lex:в] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_в_ВАР_ДвРефлексивИнтерпозиция",
             "comment": "обработано всё"
