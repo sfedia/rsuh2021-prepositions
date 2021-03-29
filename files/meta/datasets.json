@@ -1249,10 +1249,11 @@
             "prepositionVariants": "у (например: сам <b>у</b> себя)",
             "matchesFound": true,
             "allMatches": 148,
-            "processedMatches": 110,
+            "processedMatches": 146,
+            "randomized": true,
             "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_у_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё"
         },
         {
             "name": "НКРЯ_у_ВАР:Удвоение",
