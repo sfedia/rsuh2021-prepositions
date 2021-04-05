@@ -553,14 +553,15 @@
             "name": "НКРЯ_на_ВАР:Удвоение",
             "prepositionVariants": "на",
             "matchesFound": true,
-            "allMatches": 593,
-            "processedMatches": 286,
+            "allMatches": 1635,
+            "processedMatches": 634,
             "query": [
                 "[lex:на][add:-bmark]{1}[gr:(S|SPRO),acc][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),acc]{1}[gr:-acc]",
                 "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(loc|loc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(loc|loc2)]{1}[gr:-(loc|loc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_на_ВАР_Удвоение",
-            "comment": "Query(A) ВСЁ, Query(B) до 22 страницы"
+            "comment": "A+B:634",
+            "randomized": true
         },
         {
             "name": "НКРЯ_над_ВАР:АппроксИнверсия",
@@ -601,10 +602,11 @@
             "prepositionVariants": "над (например: сам <b>над</b> собой)",
             "matchesFound": true,
             "allMatches": 192,
-            "processedMatches": 111,
+            "processedMatches": 192,
             "query": "[lex:сам] {1} [lex:над] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_над_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё",
+            "randomized": true
         },
         {
             "name": "НКРЯ_над_ВАР:Удвоение",
