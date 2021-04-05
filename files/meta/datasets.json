@@ -108,14 +108,14 @@
             "prepositionVariants": "в/во",
             "matchesFound": true,
             "allMatches": 2099,
-            "processedMatches": 997,
+            "processedMatches": 685,
             "query": [
-                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)] {1} [gr:-(loc|loc2)]",
-                "[lex:в|во][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:во][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)] {1} [gr:-(loc|loc2)]",
-                "[lex:в][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)] {1} [gr:-(acc|acc2)]"
+                "[lex:в|во][add:-bmark] {1} [gr:(S|SPRO),(loc|loc2)][add:-bmark] {1} [lex:в|во][add:-bmark] {1} [gr:(A|NUM|ANUM),(loc|loc2)] {1} [gr:-(loc|loc2)]",
+                "[lex:в|во][add:-bmark] {1} [gr:(S|SPRO),(acc|acc2)][add:-bmark] {1} [lex:в|во][add:-bmark] {1} [gr:(A|NUM|ANUM),(acc|acc2)] {1} [gr:-(acc|acc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_в_ВАР_Удвоение",
-            "comment": "Query(A) ВСЁ, Query(B) ВСЁ, Query(C) не начато"
+            "comment": "A:6,B:7",
+            "randomized": true
         },
         {
             "name": "НКРЯ_для_ВАР:АппроксИнверсия",
