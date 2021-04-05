@@ -711,10 +711,11 @@
             "prepositionVariants": "от (например: сам <b>от</b> себя)",
             "matchesFound": true,
             "allMatches": 324,
-            "processedMatches": 107,
+            "processedMatches": 324,
             "query": "[lex:сам] {1} [lex:от] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_от_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё",
+            "randomized": true
         },
         {
             "name": "НКРЯ_от_ВАР:Удвоение",
