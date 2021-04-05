@@ -132,10 +132,11 @@
             "prepositionVariants": "для",
             "matchesFound": true,
             "allMatches": 1617,
-            "processedMatches": 112,
+            "processedMatches": 383,
             "query": "[lex:ни] {1} [lex:для] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_для_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_для_ВАР:АмальгамыИнтерпозиция",
