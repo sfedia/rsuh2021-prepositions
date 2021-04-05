@@ -72,11 +72,12 @@
             "name": "НКРЯ_в_ВАР:ОтрМестИнтерпозиция",
             "prepositionVariants": "в/во",
             "matchesFound": true,
-            "allMatches": 20562,
-            "processedMatches": 217,
+            "allMatches": 21871,
+            "processedMatches": 965,
             "query": "[lex:ни] {1} [lex:в|во] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_в_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 11 страницы"
+            "comment": "kwcz:5",
+            "randomized": true
         },
         {
             "name": "НКРЯ_в_ВАР:АмальгамыИнтерпозиция",
