@@ -189,10 +189,11 @@
             "prepositionVariants": "до",
             "matchesFound": true,
             "allMatches": 671,
-            "processedMatches": 137,
+            "processedMatches": 352,
             "query": "[lex:ни] {1} [lex:до] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_до_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 13 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_до_ВАР:АмальгамыИнтерпозиция",
