@@ -657,11 +657,12 @@
             "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "о/об/обо (например: сам <b>о</b> себе; сам <b>об</b> себя)",
             "matchesFound": true,
-            "allMatches": 449,
-            "processedMatches": 74,
+            "allMatches": 430,
+            "processedMatches": 430,
             "query": "[lex:сам] {1} [lex:о|об|обо] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_о_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 7 страницы; NB: пересмотреть отрицательные примеры"
+            "comment": "обработано всё",
+            "randomized": true
         },
         {
             "name": "НКРЯ_о_ВАР:Удвоение",
