@@ -155,10 +155,11 @@
             "prepositionVariants": "для (например: сам <b>для</b> себя)",
             "matchesFound": true,
             "allMatches": 526,
-            "processedMatches": 108,
+            "processedMatches": 526,
             "query": "[lex:сам] {1} [lex:для] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_для_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё",
+            "randomized": true
         },
         {
             "name": "НКРЯ_для_ВАР:Удвоение",
