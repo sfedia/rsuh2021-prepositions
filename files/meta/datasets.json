@@ -1142,11 +1142,12 @@
             "name": "НКРЯ_про_ВАР:ДвРефлексивИнтерпозиция",
             "prepositionVariants": "про (например: сам <b>про</b> себя)",
             "matchesFound": true,
-            "allMatches": 272,
-            "processedMatches": 104,
+            "allMatches": 232,
+            "processedMatches": 232,
             "query": "[lex:сам] {1} [lex:про] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_про_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё",
+            "randomized": true
         },
         {
             "name": "НКРЯ_про_ВАР:Удвоение",
