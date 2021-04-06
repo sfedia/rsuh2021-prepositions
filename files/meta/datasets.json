@@ -518,13 +518,14 @@
             "prepositionVariants": "на",
             "matchesFound": true,
             "allMatches": 16059,
-            "processedMatches": 426,
+            "processedMatches": 1554,
             "query": [
-                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(acc|acc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(acc|acc2)]",
-                "[lex:на][add:-bmark]{1}[gr:(S|SPRO),(loc|loc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(A|NUM|ANUM),(loc|loc2)]{1}[gr:-(loc|loc2)]"
+                "[gr:-(loc|loc2)]{1}[gr:S,(loc|loc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(NUM|ANUM),(loc|loc2)]",
+                "[gr:-(acc|acc2)]{1}[gr:S,(acc|acc2)][add:-bmark]{1}[lex:на][add:-bmark]{1}[gr:(NUM|ANUM),(acc|acc2)]"
             ],
             "link": "/dataset-profile/НКРЯ_на_ВАР_АппроксИнверсия",
-            "comment": "Query(A) до 20 страницы, Query(B) до 10 страницы"
+            "comment": "A:5,B:11",
+            "randomized": true
         },
         {
             "name": "НКРЯ_на_ВАР:ОтрМестИнтерпозиция",
