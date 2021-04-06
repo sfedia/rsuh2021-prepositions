@@ -461,10 +461,11 @@
             "prepositionVariants": "к (например: часам <b>к</b> пяти)",
             "matchesFound": true,
             "allMatches": 945,
-            "processedMatches": 112,
+            "processedMatches": 317,
             "query": "[gr:-dat]{1}[gr:S,dat][add:-bmark]{1}[lex:к][add:-bmark]{1}[gr:(NUM|ANUM),dat]",
             "link": "/dataset-profile/НКРЯ_к_ВАР_АппроксИнверсия",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_к_ВАР:ОтрМестИнтерпозиция",
