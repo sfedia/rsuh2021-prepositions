@@ -532,10 +532,10 @@
             "prepositionVariants": "на",
             "matchesFound": true,
             "allMatches": 9942,
-            "processedMatches": 174,
+            "processedMatches": 839,
             "query": "[lex:ни] {1} [lex:на] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6"
         },
         {
             "name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция",
