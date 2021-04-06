@@ -472,10 +472,11 @@
             "prepositionVariants": "к/ко",
             "matchesFound": true,
             "allMatches": 8459,
-            "processedMatches": 163,
+            "processedMatches": 470,
             "query": "[lex:ни] {1} [lex:к|ко] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_к_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:7",
+            "randomized": true
         },
         {
             "name": "НКРЯ_к_ВАР:АмальгамыИнтерпозиция",
