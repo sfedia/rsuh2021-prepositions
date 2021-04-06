@@ -272,10 +272,11 @@
             "prepositionVariants": "за (например: сам <b>за</b> себя; сам <b>за</b> собой)",
             "matchesFound": true,
             "allMatches": 840,
-            "processedMatches": 101,
+            "processedMatches": 302,
             "query": "[lex:сам] {1} [lex:за] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_за_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_за_ВАР:Удвоение",
