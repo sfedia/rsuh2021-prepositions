@@ -296,12 +296,13 @@
             "prepositionVariants": "из (например: человек <b>из</b> пяти)",
             "matchesFound": true,
             "allMatches": 2464,
-            "processedMatches": 236,
+            "processedMatches": 598,
             "query": [
                 "[gr:-(gen|gen2)]{1}[gr:S,(gen|gen2)][add:-bmark]{1}[lex:за][add:-bmark]{1}[gr:(NUM|ANUM),(gen|gen2)]"
             ],
             "link": "/dataset-profile/НКРЯ_из_ВАР_АппроксИнверсия",
-            "comment": "до 20 страницы, один пример"
+            "comment": "A:8",
+            "randomized": true
         },
         {
             "name": "НКРЯ_из_ВАР:ОтрМестИнтерпозиция",
