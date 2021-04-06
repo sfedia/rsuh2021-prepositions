@@ -556,10 +556,10 @@
             "prepositionVariants": "на (например: сам <b>на</b> себя)",
             "matchesFound": true,
             "allMatches": 695,
-            "processedMatches": 110,
+            "processedMatches": 549,
             "query": "[lex:сам] {1} [lex:на] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:10"
         },
         {
             "name": "НКРЯ_на_ВАР:Удвоение",
