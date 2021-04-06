@@ -251,7 +251,8 @@
             "processedMatches": 1047,
             "query": "[lex:ни] {1} [lex:за] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_за_ВАР_ОтрМестИнтерпозиция",
-            "comment": "A:6"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_за_ВАР:АмальгамыИнтерпозиция",
