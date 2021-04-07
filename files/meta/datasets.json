@@ -835,10 +835,11 @@
             "prepositionVariants": "по (например: сам <b>по</b> себе)",
             "matchesFound": true,
             "allMatches": 15259,
-            "processedMatches": 146,
+            "processedMatches": 974,
             "query": "[lex:сам] {1} [lex:по] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_по_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_по_ВАР:Удвоение",
@@ -1215,10 +1216,11 @@
             "prepositionVariants": "с (например: сам <b>с</b> собой)",
             "matchesFound": true,
             "allMatches": 2517,
-            "processedMatches": 135,
+            "processedMatches": 646,
             "query": "[lex:сам] {1} [lex:у] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_с_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_с_ВАР:Удвоение",
