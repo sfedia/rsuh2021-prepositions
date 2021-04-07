@@ -1241,11 +1241,12 @@
             "name": "НКРЯ_у_ВАР:ОтрМестИнтерпозиция",
             "prepositionVariants": "у",
             "matchesFound": true,
-            "allMatches": 3746,
-            "processedMatches": 126,
+            "allMatches": 3476,
+            "processedMatches": 555,
             "query": "[lex:ни]{1}[lex:у]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_у_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_у_ВАР:АмальгамыИнтерпозиция",
