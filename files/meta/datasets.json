@@ -535,7 +535,8 @@
             "processedMatches": 839,
             "query": "[lex:ни] {1} [lex:на] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ОтрМестИнтерпозиция",
-            "comment": "A:6"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_на_ВАР:АмальгамыИнтерпозиция",
@@ -559,7 +560,8 @@
             "processedMatches": 549,
             "query": "[lex:сам] {1} [lex:на] {1} [lex:себя]",
             "link": "/dataset-profile/НКРЯ_на_ВАР_ДвРефлексивИнтерпозиция",
-            "comment": "A:10"
+            "comment": "A:10",
+            "randomized": true
         },
         {
             "name": "НКРЯ_на_ВАР:Удвоение",
