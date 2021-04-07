@@ -1190,10 +1190,11 @@
             "prepositionVariants": "с",
             "matchesFound": true,
             "allMatches": 7797,
-            "processedMatches": 176,
+            "processedMatches": 1129,
             "query": "[lex:ни]{1}[lex:с]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_с_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:8",
+            "randomized": true
         },
         {
             "name": "НКРЯ_с_ВАР:АмальгамыИнтерпозиция",
