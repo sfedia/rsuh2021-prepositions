@@ -647,10 +647,11 @@
             "prepositionVariants": "о/об/обо",
             "matchesFound": true,
             "allMatches": 9320,
-            "processedMatches": 225,
+            "processedMatches": 867,
             "query": "[lex:ни] {1} [lex:о|об|обо] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_о_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_о_ВАР:АмальгамыИнтерпозиция",
