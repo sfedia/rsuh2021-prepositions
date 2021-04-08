@@ -703,10 +703,11 @@
             "prepositionVariants": "от/ото",
             "matchesFound": true,
             "allMatches": 2118,
-            "processedMatches": 109,
+            "processedMatches": 524,
             "query": "[lex:ни] {1} [lex:от|ото] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_от_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:6",
+            "randomized": true
         },
         {
             "name": "НКРЯ_от_ВАР:АмальгамыИнтерпозиция",
@@ -757,11 +758,12 @@
             "name": "НКРЯ_перед_ВАР:ОтрМестИнтерпозиция",
             "prepositionVariants": "перед(о)/пред(о)",
             "matchesFound": true,
-            "allMatches": 1033,
-            "processedMatches": 117,
+            "allMatches": 956,
+            "processedMatches": 412,
             "query": "[lex:ни] {1} [lex:перед|передо|пред] {1} [lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_перед_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:7",
+            "randomized": true
         },
         {
             "name": "НКРЯ_перед_ВАР:АмальгамыИнтерпозиция",
@@ -1029,10 +1031,11 @@
             "prepositionVariants": "под",
             "matchesFound": true,
             "allMatches": 860,
-            "processedMatches": 113,
+            "processedMatches": 450,
             "query": "[lex:ни]{1}[lex:под]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_под_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:7",
+            "randomized": true
         },
         {
             "name": "НКРЯ_под_ВАР:АмальгамыИнтерпозиция",
@@ -1083,10 +1086,11 @@
             "prepositionVariants": "при",
             "matchesFound": true,
             "allMatches": 3710,
-            "processedMatches": 171,
+            "processedMatches": 756,
             "query": "[lex:ни]{1}[lex:при]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_при_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "A:7",
+            "randomized": true
         },
         {
             "name": "НКРЯ_при_ВАР:АмальгамыИнтерпозиция",
@@ -1136,11 +1140,11 @@
             "name": "НКРЯ_про_ВАР:ОтрМестИнтерпозиция",
             "prepositionVariants": "про",
             "matchesFound": true,
-            "allMatches": 619,
-            "processedMatches": 123,
+            "allMatches": 615,
+            "processedMatches": 615,
             "query": "[lex:ни]{1}[lex:про]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_про_ВАР_ОтрМестИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё"
         },
         {
             "name": "НКРЯ_про_ВАР:АмальгамыИнтерпозиция",
