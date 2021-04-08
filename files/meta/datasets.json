@@ -29,7 +29,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:без][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:без][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:без][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:без][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_без_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -88,7 +88,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:в|во][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:в|во][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:в|во][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:в|во][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_в_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -147,7 +147,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:для][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:для][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:для][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:для][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_для_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -204,7 +204,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:до][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:до][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:до][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:до][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_до_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -263,7 +263,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:за][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:за][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:за][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:за][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_за_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -324,7 +324,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:из][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:из][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:из][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:из][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_из_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -378,7 +378,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:из-за][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_из-за_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -432,7 +432,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:из-под][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:из-под][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:из-под][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:из-под][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": null,
             "comment": "ни одного примера"
@@ -488,7 +488,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:к][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_к_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -547,7 +547,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:на][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_на_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -606,7 +606,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:над|надо][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:над|надо][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:над|надо][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:над|надо][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_над_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -658,14 +658,14 @@
             "prepositionVariants": "о/об(о)",
             "matchesFound": true,
             "allMatches": 462,
-            "processedMatches": 114,
+            "processedMatches": 462,
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:о|об|обо][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_о_ВАР_АмальгамыИнтерпозиция",
-            "comment": "до 10 страницы"
+            "comment": "обработано всё"
         },
         {
             "name": "НКРЯ_о_ВАР:ДвРефлексивИнтерпозиция",
@@ -718,7 +718,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:о|ото][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_от_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -774,7 +774,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:перед|передо][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_перед_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -828,7 +828,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:по][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:по][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:по][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:по][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_по_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -883,7 +883,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:по-за][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": null,
             "comment": "ни одного примера"
@@ -937,7 +937,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:по-над][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:по-над][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:по-над][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:по-над][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": null,
             "comment": "ни одного примера"
@@ -991,7 +991,7 @@
             "query": [
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:по-под][add:-bmark]{1}[lex:кто|что]",
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:по-под][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:по-под][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:по-под][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": null,
             "comment": "ни одного примера"
@@ -1046,7 +1046,7 @@
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]",
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:под|подо][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_под_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -1101,7 +1101,7 @@
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:при][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_при_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -1155,7 +1155,7 @@
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_про_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
@@ -1213,7 +1213,7 @@
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:про][add:-bmark]{1}[lex:кто|что]",
                 "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:с|со][add:-bmark]{1}[lex:кто|что]"
             ],
-            "link": "/dataset-profile/НКРЯ_про_ВАР_АмальгамыИнтерпозиция",
+            "link": "/dataset-profile/НКРЯ_c_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
         },
         {
@@ -1267,7 +1267,7 @@
             "query": [
                 "[lex:не][add:-bmark]{1}[lex:угадать|поверить][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]",
                 "[lex:знать|понимать|понять|ведомо|неведомо|весть|невесть|вообразить|мало|много|понятно|непонятно|абы|ужас|*-те][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]",
-                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]"
+                "[lex:с][add:-bmark]{1}[lex:ум][add:-bmark]{1}[lex:сойти][add:-bmark]{1}[lex:у][add:-bmark]{1}[lex:кто|что]"
             ],
             "link": "/dataset-profile/НКРЯ_у_ВАР_АмальгамыИнтерпозиция",
             "comment": "обработано всё"
