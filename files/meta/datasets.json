@@ -1308,8 +1308,8 @@
             "name": "НКРЯ_через_ВАР:ОтрМестИнтерпозиция",
             "prepositionVariants": "ч(е)рез",
             "matchesFound": true,
-            "allMatches": 24,
-            "processedMatches": 24,
+            "allMatches": 72,
+            "processedMatches": 72,
             "query": "[lex:ни]{1}[lex:через|чрез]{1}[lex:ч*|к*][gr:(SPRO|APRO)]",
             "link": "/dataset-profile/НКРЯ_через_ВАР_ОтрМестИнтерпозиция",
             "comment": "обработано всё"
